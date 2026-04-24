@@ -173,7 +173,14 @@ article.incident .clips { margin: 14px 0 8px; }
 }
 .clip:last-child { border-bottom: none; }
 .clip-meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; font-family: ui-monospace, monospace; letter-spacing: 0.02em; }
-.clip.primary .clip-meta::before { content: "▶ primary  "; color: var(--accent-navy); font-weight: 700; letter-spacing: 0.04em; }
+button.play-all {
+  font: inherit; font-size: 13px;
+  background: transparent; border: 0.5px solid var(--accent-navy);
+  color: var(--accent-navy); padding: 6px 12px; border-radius: 2px;
+  cursor: pointer; letter-spacing: 0.04em;
+  margin: 14px 0 4px;
+}
+button.play-all:hover { background: var(--accent-navy); color: white; }
 .tg.APD { color: #1b4f8a; font-weight: 700; }
 .tg.AFD { color: var(--accent-terracotta); font-weight: 700; }
 .clip audio { height: 34px; width: 100%; max-width: 480px; }
@@ -222,7 +229,7 @@ footer a { color: var(--muted); }
 <header class="hero">
   <div class="eyebrow-top">April 1&ndash;22, 2026 &middot; Alexandria, Virginia &middot; A personal research project</div>
   <h1>Eighteen people were hit by vehicles in Alexandria in twenty-two days.</h1>
-  <p class="subhead">Six made the news. One person died. Every incident below is documented with the original 911 dispatch audio.</p>
+  <p class="subhead">Six made the news. One pedestrian died. Every incident below is documented with the original dispatch audio.</p>
   <div class="stats">
     <div><div class="stat-num">18</div><div class="stat-label">Total strikes</div></div>
     <div><div class="stat-num">6</div><div class="stat-label">Publicly reported</div></div>
@@ -237,25 +244,38 @@ footer a { color: var(--muted); }
   <p>Alexandria has a data gap when it comes to pedestrian, cyclist, and scooter
 safety, and I noticed it by accident.</p>
 
-<p>I serve on the Del Ray Citizens Association's traffic calming committee.
-When we rebuilt the committee last year, we asked our APD representative to
-come talk to us about crashes on Mount Vernon Avenue. Several of the incidents
-we already knew about &mdash; from the mom text threads that run parallel to
-everything in this neighborhood &mdash; were missing from the official list.
-That's how I learned that a crash leaves no public record unless there's
-enough property or human damage, and that even the ones that do don't show up
-in the state's TREADS database for months. A Vision Zero city can't afford
-to fly blind on the incidents it never sees.</p>
+<p>This isn't a story about our police department falling short. The officers
+responding to these incidents do the work they're asked to do. What I think
+has happened is that APD's public reporting role has quietly narrowed to
+&ldquo;a road is closed&rdquo; and then &ldquo;a road is reopened.&rdquo; That
+is why we hear about some of these incidents on social media and not about
+others &mdash; if no road closure is required, no post goes out. Other
+Virginia cities have decided that isn't enough. Alexandria should too.
+More on that at the bottom.</p>
 
-<p>On the Wednesday evening I heard the Braddock Metro hit-and-run come over
-the police scanner &mdash; a pedestrian struck in the crosswalk, suspect caught
-nine minutes later, nothing in the news the next morning &mdash; I wondered
-how often that was happening. I spent the following week building a tool that
-downloads every Alexandria 911 dispatch call, transcribes it with OpenAI's
-Whisper, and flags the ones that sound like pedestrian, cyclist, or scooter
-strikes. I reviewed every flag myself. Below is every verified incident I
-could find from April 1 through April 22, 2026. Six of them had made the
-news. Twelve had not.</p>
+<p>I serve on the Del Ray Citizens Association's traffic calming committee,
+the Bicycle and Pedestrian Advisory Committee (BPAC), and as an advocate
+with Northern Virginia Families for Safe Streets (NVFSS). In each of those
+rooms, there's a police representative gamely trying to reconstruct the
+last month's crashes from whatever notes made it back to the station. Each
+presentation is missing a different two-thirds of the picture. Several of
+the incidents we already knew about &mdash; from mom text threads that run
+parallel to everything in this neighborhood &mdash; would turn up missing
+from the official list. That's how I learned that a crash often leaves no
+public record unless there's enough property or human damage, and that even
+the ones that do don't show up in the state's TREADS database for months.
+The gap between the three partial pictures advocacy groups get, and what the
+city itself quietly hears over the radio, is enormous. A Vision Zero city
+can't afford to fly blind on the incidents it never sees.</p>
+
+<p>Hearing a hit-and-run call come over the scanner at the Braddock Road
+Metro last Thursday night made me wonder how often this was happening, and
+also realize I had the tools at my disposal to find out. So I built a tool
+to download every OpenMHz dispatch call that was publicly available,
+transcribe them all, and search for anything that looked like it might be a
+pedestrian, scooter, or cyclist incident. I reviewed every flag myself.
+Below is every verified incident I could find from April 1 through April 22,
+2026. Six of them had made the news. Twelve had not.</p>
 
 </section>
 
@@ -313,25 +333,26 @@ news. Twelve had not.</p>
 </section>
 
 <section class="timeline">
-  <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The eighteen</h2>
+  <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The eighteen pedestrians hit <span style="font-size:0.7em;color:var(--muted);font-style:italic;font-weight:400"> &mdash; so far in April</span></h2>
   <p class="timeline-intro">In chronological order. Click any clip to play.</p>
   
 <article class="incident" id="incident-9">
-  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 9:22&nbsp;AM</div>
+  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 9:22&nbsp;AM &middot; <span class="neighborhood">Del Ray</span></div>
   <h3 class="location">Mount Vernon Ave &amp; E Luray Ave</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
-  <p class="description">Pedestrian hit at Mount Vernon and Luray at 9am on a Saturday morning - right in the middle of the Farmers Market / Matt &amp; Tonys brunch rush. The DRCA&#x27;s police report the next week on this one was &quot;we know a vehicle incident happened at Luray Saturday morning but that&#x27;s all the detail we have.&quot; Reviewing the calls, we now know it was a pedestrian struck - but because the pedestrian refused medical attention, nothing further will be recorded in any database.</p>
-  <blockquote class="excerpt">233 alpha for the motor vehicle crash. Pedestrian struck Mount Vernon and East Luray, Mount Vernon and East Luray. Caller was hit by a Honda Accord, that&#x27;s still on scene. Medics refused, so routine response.</blockquote>
+  <p class="description">Pedestrian hit at Mount Vernon and Luray at 9am on a Saturday morning — right in the middle of the Farmers Market / Matt &amp; Tony&#x27;s brunch rush. The DRCA&#x27;s police report the next week on this one was &quot;we know a vehicle incident happened at Luray Saturday morning but that&#x27;s all the detail we have.&quot; Reviewing the calls, we now know it was a pedestrian struck — but because the pedestrian refused medical attention, nothing further will be recorded in any database.</p>
+  <blockquote class="excerpt">Pedestrian struck Mount Vernon and East Luray, Mount Vernon and East Luray. Caller was hit by a Honda Accord, that&#x27;s still on scene. Medics refused, so routine response.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">9:22:03&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_09/69d11090302a9885ed9c095c.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">9:22:22&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 16s</span>
   </div>
@@ -345,35 +366,36 @@ news. Twelve had not.</p>
 </article>
 
 <article class="incident" id="incident-11">
-  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 4:01&nbsp;PM</div>
+  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 4:01&nbsp;PM &middot; <span class="neighborhood">Del Ray / Braddock Project Area</span></div>
   <h3 class="location">Mount Vernon Ave at E Braddock Rd (in the Braddock Project Area)</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
-  <p class="description">An adult male pedestrian was hit by a driver while in the crosswalk and received medical attention.  We know from news coverage that the vehicle was cited at the time of response, which tells us there were either additional witnesses or video to confidently show the driver was at fault. Even after several conversations with officers, citizens do not know the direction of travel of the vehicle.</p>
+  <p class="description">An adult male pedestrian was hit by a driver while in the crosswalk and received medical attention. We know from news coverage that the vehicle was cited at the time of response, which tells us there were either additional witnesses or video to confidently show the driver was at fault. Even after several conversations with officers, citizens do not know with certainty the direction of travel of the vehicle.</p>
   <blockquote class="excerpt">235 Alpha unit to assist with the crash. Pedestrian struck Mount Vernon East Braddock. Information is still coming in. Priority response is authorized.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">4:01:32&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 9s</span>
   </div>
   <audio controls preload="none" src="audio/incident_11/69d16e28302a9885ed794d19.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">4:03:36&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_11/69d16eaa302a9885ed7a9b53.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">4:04:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
   </div>
   <audio controls preload="none" src="audio/incident_11/69d16ec9302a9885ed7ae825.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">4:04:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
   </div>
@@ -387,21 +409,22 @@ news. Twelve had not.</p>
 </article>
 
 <article class="incident" id="incident-14">
-  <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 12:15&nbsp;PM</div>
-  <h3 class="location">S Royal St &amp; Green St</h3>
+  <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 12:15&nbsp;PM &middot; <span class="neighborhood">Near Jones Point</span></div>
+  <h3 class="location">S Royal St &amp; Green St (near Jones Point)</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
-  <p class="description">Previously unknown before this analysis. A US Park Police Officer called in a female pedestrian who had been struck by a vehicle.</p>
+  <p class="description">Previously unknown before this analysis. A US Park Police officer called in a female pedestrian who had been struck by a vehicle.</p>
   <blockquote class="excerpt">Units 214, 224, crash 5 and 220 for the pedestrian struck South Royal and Green Street, South Royal and Green. Call came in to us from U.S. Park Police advising that they&#x27;re out with a female that was struck by a vehicle. Priority response is authorized at 1220.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">12:20:29&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_14/69d52ee7302a9885eda12213.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">12:20:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
   </div>
@@ -418,53 +441,54 @@ news. Twelve had not.</p>
   <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 3:22&nbsp;PM</div>
   <h3 class="location">Sanger Ave &amp; N Van Dorn St</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
-  <p class="description">Serious pedestrian strike with injury at Sanger and Van Dorn. This one did receive news coverage because APD tweeted a street closure. </p>
+  <p class="description">Serious pedestrian strike with injury at Sanger and Van Dorn. This one did receive news coverage — possibly because APD tweeted a street closure.</p>
   
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">3:22:39&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 34s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d559ae302a9885ed119e97.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">3:22:52&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d559a2302a9885ed11812b.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">3:23:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 22s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d559cf302a9885ed11fadc.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">3:24:01&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d559ed302a9885ed124fc6.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="4">
   <div class="clip-meta">
     <span class="clip-time">3:25:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d55a4c302a9885ed136af0.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="5">
   <div class="clip-meta">
     <span class="clip-time">3:26:14&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_15/69d55a68302a9885ed13bfe0.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="6">
   <div class="clip-meta">
     <span class="clip-time">3:26:55&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
   </div>
@@ -483,30 +507,31 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type scooter">Scooter</span><span class="pill hit-and-run">Hit and run</span></div>
   <p class="description">Female on a scooter hit by a driver. Caller said the driver was trying to leave the scene.</p>
   <blockquote class="excerpt">Headquarters any units a break for the MVC. Pit, Pedestrian struck, Seminary and Mark Center. Seminary and Mark Center. Priority responses authorized at 20-16 hours.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">8:16:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_25/69d6effb302a9885edfccf74.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">8:15:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_25/69d6efd1302a9885edfc58b8.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
+  <div class="clip-meta">
+    <span class="clip-time">8:16:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_25/69d6effb302a9885edfccf74.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">8:17:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
   </div>
   <audio controls preload="none" src="audio/incident_25/69d6f018302a9885edfd2d22.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">8:17:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
   </div>
@@ -525,9 +550,10 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
   <p class="description">Pedestrian caller(s) - multiple - saying they were on foot and struck by a female driver in a red sedan who then left the scene. They asked for the gas station cameras to be reviewed. Because there were no injuries or property damage, this one will not be recorded in Vision Zero database.</p>
   <blockquote class="excerpt">MVC hit-and-run, no injury, pedestrian struck, 4368 King Street, 4368 King Street. Callers stating they were on foot and struck by a vehicle. Described it as a red sedan, medics have been refused so far. </blockquote>
+  
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">2:42:47&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
   </div>
@@ -546,44 +572,45 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
   <p class="description">In this incident, AFD was responding to a residential building fire in the area, and as they did so a private vehicle that was pulling out of their way struck a pedestrian. That pedestrian required medical attention and a secondary emergency event. AlxNow appears to have caught this one on the scanner and asked APD for further comment but never published any update.</p>
   <blockquote class="excerpt">We&#x27;re heading to the we&#x27;re heading to the box alarm in car tried to get out of our way and hit a pedestrian in the street at Valley Forge in South Pickett. He&#x27;s laying in the street.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">7:22:14&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
   </div>
   <audio controls preload="none" src="audio/incident_31/69dad7b67d3c667f1dd2b4d0.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">7:23:13&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 27s</span>
   </div>
   <audio controls preload="none" src="audio/incident_31/69dad8017d3c667f1dd3ef47.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">7:26:34&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
   </div>
   <audio controls preload="none" src="audio/incident_31/69dad8ba7d3c667f1dd71515.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">7:27:02&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
   </div>
   <audio controls preload="none" src="audio/incident_31/69dad8e37d3c667f1dd7b729.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="4">
   <div class="clip-meta">
     <span class="clip-time">7:29:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 13s</span>
   </div>
   <audio controls preload="none" src="audio/incident_31/69dad97c7d3c667f1dda3318.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="5">
   <div class="clip-meta">
     <span class="clip-time">7:30:48&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
   </div>
@@ -602,16 +629,17 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type scooter">Scooter</span></div>
   <p class="description">A scooter was struck by a driver on Stovall near Mill Rd. (near the Wegmans). Because medical attention was refused on scene, this incident is not Vision Zero database reportable. No further information is available regarding whether the driver stayed on scene, but 911 call records or police records should show this.</p>
   <blockquote class="excerpt">X-ray 908. 908. Can you start a unit reference accident, hit and run, a pedestrian was struck on the street. Um, that&#x27;s Stovall right before Mill.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">9:07:31&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
   </div>
   <audio controls preload="none" src="audio/incident_32/69daf0697d3c667f1d4dd1cb.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">9:08:29&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
   </div>
@@ -628,11 +656,12 @@ news. Twelve had not.</p>
   <div class="eyebrow">Tuesday,  April&nbsp;14 &middot; 9:32&nbsp;AM</div>
   <h3 class="location">906 Wolfe St</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
-  <p class="description">Not much information here but it happened at 9:30am in Old Town along Richmond Highway, and is described as a hit and run. </p>
-  <blockquote class="excerpt">213 at the back for the hit and run pedestrian struck 906 Wolf, 906 Wolf for a pedestrian that was struck by a vehicle. Unknown description of vehicle. Pedestrians refusing to give any further.</blockquote>
+  <p class="description">Not much information here but it happened at 9:30am in Old Town along Richmond Highway, and is described as a hit and run.</p>
+  <blockquote class="excerpt">213 at the back for the hit and run pedestrian struck 906 Wolfe, 906 Wolfe for a pedestrian that was struck by a vehicle. Unknown description of vehicle. Pedestrians refusing to give any further.</blockquote>
+  
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">9:32:37&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 22s</span>
   </div>
@@ -647,28 +676,28 @@ news. Twelve had not.</p>
 
 <article class="incident heavier" id="incident-40">
   <div class="eyebrow">Wednesday,  April&nbsp;15 &middot; 6:05&nbsp;PM</div>
-  <h3 class="location">5750 Sanger Ave (Near William Ramsey Elementary)</h3>
+  <h3 class="location">5750 Sanger Ave (near William Ramsay Elementary)</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
-  <p class="description">Dispatch describes this as a 7 year old male hit by a driver, news accounts say he was 11. From a presentation to Northern Virginia Families for Safe Streets, I understand that this child may have been walking behind a bus at the time.</p>
-  <blockquote class="excerpt">
-332-32-November-1, 32-November-2 for the pedestrian struck 5750 Sanger Avenue, 5750 Sanger Avenue. Priority response is authorized, 1806. You&#x27;re responding for a 7-year-old male that was hit by a gray vehicle, Virginia tag, ********. We do have fire enroute as well.</blockquote>
+  <p class="description">Dispatch describes this as a 7-year-old male hit by a driver; news accounts say he was 11. From a Police presentation to Northern Virginia Families for Safe Streets, I understand that this child may have been walking behind a bus at the time.</p>
+  <blockquote class="excerpt">332-32-November-1, 32-November-2 for the pedestrian struck 5750 Sanger Avenue, 5750 Sanger Avenue. Priority response is authorized, 1806. You&#x27;re responding for a 7-year-old male that was hit by a gray vehicle, Virginia tag, ********. We do have fire enroute as well.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">6:05:30&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
   </div>
   <audio controls preload="none" src="audio/incident_40/69e00bc4d7432e855c6b44e1.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">6:05:59&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
   </div>
   <audio controls preload="none" src="audio/incident_40/69e00be8d7432e855c6c0150.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">6:06:56&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 12s</span>
   </div>
@@ -676,7 +705,7 @@ news. Twelve had not.</p>
 </div>
   </div>
   <div class="links">
-    
+    <a class="coverage" href="https://www.alxnow.com/2026/04/16/child-struck-by-vehicle-near-william-ramsay-elementary-school/" target="_blank" rel="noopener">Read coverage &rarr;</a>
     
   </div>
 </article>
@@ -685,81 +714,54 @@ news. Twelve had not.</p>
   <div class="eyebrow">Thursday,  April&nbsp;16 &middot; 8:48&nbsp;AM</div>
   <h3 class="location">Franklin St &amp; S Alfred St</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
-  <p class="description">Pedestrian struck in the crosswalk in Old Town during morning hours. From the dialogue it looks like no motor unit was available at the time to manage a traffic closure, which may be why this did not end up on the APD twitter.</p>
+  <p class="description">Pedestrian struck in the crosswalk in Old Town during morning hours. The clips here show APD requesting a motor unit to close the intersection and being told one isn&#x27;t available — which may be why this incident never made it onto APD&#x27;s Twitter.</p>
   <blockquote class="excerpt">223 and any unit that could back for Franklin and South Alfred, Franklin and South Alfred for a pedestrian struck. It&#x27;s going to be a gentleman that was in the crosswalk that got hit by a vehicle. The vehicle is a grey Dodge Ram stuck to the pedestrian. No visible bleeding at this time. Medics are also responding to the location. Priority response is authorized.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">8:49:12&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_44/69e0dae7d7432e855c1ea551.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">8:48:55&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 18s</span>
   </div>
   <audio controls preload="none" src="audio/incident_44/69e0daccd7432e855c1e3617.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
+  <div class="clip-meta">
+    <span class="clip-time">8:49:12&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0dae7d7432e855c1ea551.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">8:49:43&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
   </div>
   <audio controls preload="none" src="audio/incident_44/69e0daf2d7432e855c1ed412.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">8:49:55&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
   </div>
   <audio controls preload="none" src="audio/incident_44/69e0dafad7432e855c1ef832.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="4">
   <div class="clip-meta">
     <span class="clip-time">8:50:05&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
   <audio controls preload="none" src="audio/incident_44/69e0db07d7432e855c1f39a6.m4a"></audio>
 </div>
 
-<div class="clip">
-  <div class="clip-meta">
-    <span class="clip-time">8:50:18&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_44/69e0db0fd7432e855c1f60ea.m4a"></audio>
-</div>
-
-<div class="clip">
-  <div class="clip-meta">
-    <span class="clip-time">8:50:20&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_44/69e0db1dd7432e855c1fa8da.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="5">
   <div class="clip-meta">
     <span class="clip-time">8:50:29&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
   </div>
   <audio controls preload="none" src="audio/incident_44/69e0db1cd7432e855c1fa511.m4a"></audio>
 </div>
 
-<div class="clip">
-  <div class="clip-meta">
-    <span class="clip-time">8:50:38&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_44/69e0db25d7432e855c1fcc02.m4a"></audio>
-</div>
-
-<div class="clip">
-  <div class="clip-meta">
-    <span class="clip-time">8:52:03&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_44/69e0db83d7432e855c2194ef.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="6">
   <div class="clip-meta">
     <span class="clip-time">8:58:14&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
   </div>
@@ -778,27 +780,28 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type cyclist">Cyclist</span><span class="pill hit-and-run">Hit and run</span></div>
   <p class="description">A bicyclist was struck from behind and the driver fled — but not before handing the victim a hundred-dollar bill. Reported ~10 minutes after the fact from a bus stop near North Beauregard and Highview. Driver described as operating a white Toyota Prius.</p>
   <blockquote class="excerpt">Motor vehicle accident with injuries involving a bike occurred about 10 minutes ago at the intersection of North Beauregard and North Highview. Caller advised his rear tire was hit by a vehicle, complaining of leg pain — but the other driver gave him a hundred dollars and left. The striking vehicle is going to be a white Toyota Prius.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">4:48:58&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 35s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_45/69e14b62d7432e855c6fd201.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">4:46:04&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_45/69e14aa2d7432e855c6a8f6c.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">4:47:07&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 8s</span>
   </div>
   <audio controls preload="none" src="audio/incident_45/69e14ad9d7432e855c6c06e6.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
+  <div class="clip-meta">
+    <span class="clip-time">4:48:58&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 35s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_45/69e14b62d7432e855c6fd201.m4a"></audio>
 </div>
   </div>
   <div class="links">
@@ -811,25 +814,26 @@ news. Twelve had not.</p>
   <div class="eyebrow">Friday,  April&nbsp;17 &middot; 12:09&nbsp;AM</div>
   <h3 class="location">Potomac Ave &amp; Richmond Hwy</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
-  <p class="description">Hit and run accident in which a female scooter rider is stuck around 9:15am.</p>
+  <p class="description">Hit and run in which a female scooter rider was struck just after midnight. Responding units never get a vehicle description beyond &quot;unknown vehicle&quot; — the driver was gone before anyone arrived.</p>
   <blockquote class="excerpt">Hit and run, Richmond and Potomac, Richmond Highway, Potomac Avenue, priority response triple zero nine. Call is still collecting further. A female was on a scooter struck by an unknown vehicle. Fire is en route.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">12:09:27&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 15s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_46/69e1b28ad7432e855ccb84cf.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">12:09:16&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_46/69e1b282d7432e855ccb5c34.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
+  <div class="clip-meta">
+    <span class="clip-time">12:09:27&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 15s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_46/69e1b28ad7432e855ccb84cf.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">12:10:05&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
@@ -848,16 +852,17 @@ news. Twelve had not.</p>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
   <p class="description">Appears to have been a hit and run of a scooter rider with injury reported Saturday afternoon right across from Mount Vernon Community School.</p>
   <blockquote class="excerpt">Rescue 209, Medic 209, EMS 201, operate on 2 Bravo, Fox, 202-33, Bicyclist Struck, Commonwealth Avenue, and West Uhler Avenue. Rescue 209, Medic 209, EMS 201.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">1:37:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
   </div>
   <audio controls preload="none" src="audio/incident_52/69e3c187d7432e855ce633c1.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">1:37:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
   </div>
@@ -874,29 +879,30 @@ news. Twelve had not.</p>
   <div class="eyebrow">Saturday,  April&nbsp;18 &middot; 9:11&nbsp;PM</div>
   <h3 class="location">Reading Ave &amp; N Beauregard St</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
-  <p class="description">Adult male pedestrian &quot;struck&quot; (Trigger warning for this audio, it&#x27;s giving &quot;run over&quot;)</p>
-  <blockquote class="excerpt">331, it&#x27;s going to be a representing MVC pedestrian instructor reading at North Beauregard. The driver is still on scene. It&#x27;s going to be a Jeep Wrangler. State of the subject&#x27;s feet have been run over. The male is conscious and breathing.</blockquote>
+  <p class="description">An adult male pedestrian &quot;struck&quot; — though dispatch states the subject&#x27;s feet were run over by a Jeep Wrangler whose driver remained on scene. (Content note: the audio is distressing.)</p>
+  <blockquote class="excerpt">331, it&#x27;s going to be a representing MVC pedestrian, stuck reading at North Beauregard. The driver is still on scene. It&#x27;s going to be a Jeep Wrangler. Stated the subject&#x27;s feet have been run over. The male is conscious and breathing.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">9:12:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_54/69e42c1ad7432e855c44ab01.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">9:11:48&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_54/69e42be7d7432e855c43a4b7.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">9:11:50&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_54/69e42bebd7432e855c43bc89.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
+  <div class="clip-meta">
+    <span class="clip-time">9:12:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_54/69e42c1ad7432e855c44ab01.m4a"></audio>
 </div>
   </div>
   <div class="links">
@@ -909,67 +915,68 @@ news. Twelve had not.</p>
   <div class="eyebrow">Monday,  April&nbsp;20 &middot; 5:26&nbsp;PM</div>
   <h3 class="location">N St Asaph St &amp; Montgomery St</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill fatality">Fatality</span><span class="pill reported">Reported</span></div>
-  <p class="description">62 year old female pedestrian was killed by the driver of a black suburban during evening rush hour. It was originally reported as a hit and run. These sources indicate the driver stopped at Montgomery and Washington a minute or two later.</p>
-  <blockquote class="excerpt">Caller advised the striking vehicles of black suburban. Pedestrian is down on the ground not breathing at this time.</blockquote>
+  <p class="description">A 62-year-old female pedestrian was killed by the driver of a black Suburban during evening rush hour. It was originally reported as a hit and run; dispatch indicates the driver stopped at Montgomery and Washington a minute or two later.</p>
+  <blockquote class="excerpt">Caller advised the striking vehicle is a black Suburban. Pedestrian is down on the ground, not breathing at this time.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">5:26:58&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 8s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69a2ed7432e855c484d86.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">5:27:02&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69a3cd7432e855c48b0f9.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">5:27:20&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 31s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69a61d7432e855c49b78f.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">5:27:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 2s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69a60d7432e855c49ad9c.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="4">
   <div class="clip-meta">
     <span class="clip-time">5:28:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 18s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69a8cd7432e855c4ad594.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="5">
   <div class="clip-meta">
     <span class="clip-time">5:29:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69abcd7432e855c4c3730.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="6">
   <div class="clip-meta">
     <span class="clip-time">5:29:27&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69aced7432e855c4cb859.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="7">
   <div class="clip-meta">
     <span class="clip-time">5:30:25&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
   </div>
   <audio controls preload="none" src="audio/incident_59/69e69afcd7432e855c4da5f3.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="8">
   <div class="clip-meta">
     <span class="clip-time">5:30:41&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
@@ -983,159 +990,153 @@ news. Twelve had not.</p>
 </article>
 
 <article class="incident" id="incident-64">
-  <div class="eyebrow">Wednesday,  April&nbsp;22 &middot; 4:38&nbsp;PM</div>
+  <div class="eyebrow">Wednesday,  April&nbsp;22 &middot; 4:38&nbsp;PM &middot; <span class="neighborhood">Braddock Metro</span></div>
   <h3 class="location">500 E Braddock Rd at Braddock Metro (&quot;Braddock Metro Crosswalk&quot;)</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
   <p class="description">The call that inspired this project. A female pedestrian was struck in the crosswalk by a vehicle which then proceeded to turn right onto West and was subsequently chased onto Duke St. Because traffic was not shut down and the pedestrian is ok, this one may not be reportable elsewhere, but as the second pedestrian struck this month in the Braddock Road project area, it should be clearly be of public interest for council.</p>
   <blockquote class="excerpt">
 324 and 332 for the MVC pedestrian struck, 500 East Braddock Road, 500 East Braddock Road, priority response is authorized at 1639 hours, striking vehicle is going to be a black SUV, unknown tag, attempting to get the direction of travel. It&#x27;s on the crosswalk to the Braddock Road Metro Station.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">4:38:19&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 40s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e931e8d7432e855cb364be.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
   <div class="clip-meta">
     <span class="clip-time">4:38:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 18s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e931f5d7432e855cb3aa6c.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">4:39:16&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e931fbd7432e855cb3cdcb.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="3">
   <div class="clip-meta">
     <span class="clip-time">4:39:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93210d7432e855cb43e13.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="4">
   <div class="clip-meta">
     <span class="clip-time">4:39:54&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 2s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9321fd7432e855cb48f84.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="5">
   <div class="clip-meta">
     <span class="clip-time">4:40:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9323cd7432e855cb53a97.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="6">
   <div class="clip-meta">
     <span class="clip-time">4:40:31&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9324dd7432e855cb5a1eb.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="7">
   <div class="clip-meta">
     <span class="clip-time">4:41:02&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9326bd7432e855cb647d0.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="8">
   <div class="clip-meta">
     <span class="clip-time">4:41:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93281d7432e855cb6be70.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="9">
   <div class="clip-meta">
     <span class="clip-time">4:41:40&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93293d7432e855cb71c12.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="10">
   <div class="clip-meta">
     <span class="clip-time">4:42:38&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e932cfd7432e855cb87210.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="11">
   <div class="clip-meta">
     <span class="clip-time">4:43:55&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9331dd7432e855cba3521.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="12">
   <div class="clip-meta">
     <span class="clip-time">4:44:16&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 5s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93329d7432e855cba7bdf.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="13">
   <div class="clip-meta">
     <span class="clip-time">4:44:50&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93355d7432e855cbb7998.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="14">
   <div class="clip-meta">
     <span class="clip-time">4:45:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9336fd7432e855cbc02ad.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="15">
   <div class="clip-meta">
     <span class="clip-time">4:45:50&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 17s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93395d7432e855cbccba2.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="16">
   <div class="clip-meta">
     <span class="clip-time">4:45:59&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e93395d7432e855cbccb81.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="17">
   <div class="clip-meta">
     <span class="clip-time">4:46:11&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e9339ed7432e855cbcfa90.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="18">
   <div class="clip-meta">
     <span class="clip-time">4:46:32&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e933b5d7432e855cbd7857.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="19">
   <div class="clip-meta">
     <span class="clip-time">4:46:51&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 23s</span>
   </div>
   <audio controls preload="none" src="audio/incident_64/69e933dad7432e855cbe2e1c.m4a"></audio>
-</div>
-
-<div class="clip">
-  <div class="clip-meta">
-    <span class="clip-time">4:47:39&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 9s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_64/69e933fad7432e855cbee05b.m4a"></audio>
 </div>
   </div>
   <div class="links">
@@ -1148,25 +1149,26 @@ news. Twelve had not.</p>
   <div class="eyebrow">Wednesday,  April&nbsp;22 &middot; 11:00&nbsp;PM</div>
   <h3 class="location">King St &amp; Park Rd</h3>
   <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
-  <p class="description">Although the original call said hit and run, this Pedestrian Strike was not. The driver did stay while police responded to this Rosemont pedestrian struck call. This call did lead to an APD traffic shutdown tweet and kicked off the &quot;this seems to be happening a lot&quot; media coverage we&#x27;ve seen.</p>
+  <p class="description">Although the original call described it as a hit and run, the driver stayed on scene for this Rosemont pedestrian strike. The call led to an APD traffic shutdown tweet, and kicked off the &quot;this seems to be happening a lot&quot; wave of local media coverage.</p>
   <blockquote class="excerpt">Units 112, 312, and 315, it&#x27;s going to be for the accident hit and run pedestrian struck at the intersection of King Street and Park Road, King Street and Park Road. Scan priority response is authorized. We do have medics responding, again there is a victim in the road.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
   <div class="clips">
     
-<div class="clip primary">
-  <div class="clip-meta">
-    <span class="clip-time">11:00:46&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
-  </div>
-  <audio controls preload="none" src="audio/incident_66/69e98b7fd7432e855cae7c62.m4a"></audio>
-</div>
-
-<div class="clip">
+<div class="clip" data-clip-idx="0">
   <div class="clip-meta">
     <span class="clip-time">11:00:36&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
   </div>
   <audio controls preload="none" src="audio/incident_66/69e98b64d7432e855cadf355.m4a"></audio>
 </div>
 
-<div class="clip">
+<div class="clip" data-clip-idx="1">
+  <div class="clip-meta">
+    <span class="clip-time">11:00:46&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_66/69e98b7fd7432e855cae7c62.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
   <div class="clip-meta">
     <span class="clip-time">11:01:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
   </div>
@@ -1199,14 +1201,22 @@ news. Twelve had not.</p>
 <section class="prose charlottesville">
   <h2>What a comparable Virginia city already does</h2>
 
-<p>Alexandria is not the only Virginia locality that has to work with Virginia
-Code §&nbsp;46.2-373. Every city operates under the same threshold. But not
-every city stops there.</p>
+<p>Every Virginia city operates under the same statutory reporting threshold
+as Alexandria. Not every city stops there.</p>
 
-<p>Charlottesville Police Department has had a departmental general order
-since at least 2020 that requires an incident report for every pedestrian or
-bicyclist incident, regardless of whether the statutory reporting threshold
-is met. From the order itself:</p>
+<p>Based on my experiences in regular meetings with APD &mdash; in which the
+department reports out on pedestrian, cyclist, and scooter incidents &mdash;
+we are missing roughly two-thirds of these incidents in most read-outs.
+Luckily, a model already exists for what better looks like. Charlottesville,
+Virginia adopted it on January 2, 2020.</p>
+
+<p>Charlottesville Police General Order 542.01 was signed into effect that
+day by then-Chief RaShall Brackney as part of the department's alignment
+with Virginia Law Enforcement Professional Standards Commission (VLEPSC)
+accreditation. The underlying order number &mdash; 83-99 &mdash; suggests
+the framework predates the 2020 revision by decades. It is a routine
+internal departmental policy, not a reaction to any one incident. It has
+quietly been on the books for over five years:</p>
 
 <blockquote>
   Whether on public or private property an incident report is required for
@@ -1219,10 +1229,11 @@ is met. From the order itself:</p>
 </blockquote>
 
 <p>The policy creates an internal record for every pedestrian or bicyclist
-incident, regardless of state reporting threshold. I have asked APD through
-my DRCA channels whether Alexandria has an equivalent policy; at the time of
-this writing, I have not found one on the public record and I am awaiting
-confirmation. This section will be updated as I learn more.</p>
+incident, regardless of the state reporting threshold. Alexandria does not
+appear to have an equivalent policy. What Charlottesville has shown is that
+a city can simply decide to document these incidents. It doesn't require
+new legislation, a specific triggering tragedy, or a protracted public
+debate. It's a general order.</p>
 
 </section>
 
@@ -1326,13 +1337,55 @@ being prepared for handoff to Northern Virginia Families for Safe Streets
 </main>
 
 <script>
-// Pause other audio elements when one starts
-document.querySelectorAll('audio').forEach(a => {
-  a.addEventListener('play', () => {
-    document.querySelectorAll('audio').forEach(o => {
-      if (o !== a && !o.paused) o.pause();
-    });
+// Pause other audio elements when one starts. Exempt the "play all"
+// auto-advance which manages its own sequencing.
+function pauseOthersExcept(a) {
+  document.querySelectorAll('audio').forEach(o => {
+    if (o !== a && !o.paused) o.pause();
   });
+}
+document.querySelectorAll('audio').forEach(a => {
+  a.addEventListener('play', () => pauseOthersExcept(a));
+});
+
+// Play All: play every clip in the card in sequence.
+document.querySelectorAll('button.play-all').forEach(btn => {
+  const card = btn.closest('article.incident');
+  const audios = Array.from(card.querySelectorAll('.clip audio'));
+  let idx = 0;
+  let running = false;
+
+  function playNext() {
+    if (!running || idx >= audios.length) {
+      stop();
+      return;
+    }
+    const a = audios[idx];
+    pauseOthersExcept(a);
+    a.currentTime = 0;
+    const advance = () => { a.removeEventListener('ended', advance); idx++; playNext(); };
+    a.addEventListener('ended', advance);
+    const p = a.play();
+    if (p && p.catch) p.catch(() => { running = false; stop(); });
+  }
+  function stop() {
+    running = false;
+    btn.textContent = '▶ Play all clips in order';
+    audios.forEach(a => { try { a.pause(); } catch (_) {} });
+  }
+  btn.addEventListener('click', () => {
+    if (running) { stop(); return; }
+    idx = 0; running = true;
+    btn.textContent = '■ Stop';
+    playNext();
+  });
+  // If user clicks any individual clip, stop the play-all sequence.
+  audios.forEach(a => a.addEventListener('play', e => {
+    if (!running) return;
+    // Only stop if the user initiated (not our programmatic play).
+    if (!e.isTrusted) return;
+    stop();
+  }));
 });
 
 // Subtle fade-in on scroll
