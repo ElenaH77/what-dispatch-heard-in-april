@@ -1,0 +1,1350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hidden Danger — Alexandria, April 2026</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Eighteen pedestrians were struck in Alexandria in twenty-two days. Six were publicly reported. Every incident below is documented with the original 911 dispatch audio.">
+  <meta property="og:title" content="Hidden Danger — Twenty-two Days of Alexandria Pedestrian Calls">
+  <meta property="og:description" content="Eighteen pedestrians were struck in Alexandria in twenty-two days. Six were publicly reported. Every incident below is documented with the original 911 dispatch audio.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg: #FAF7F2;
+  --fg: #1A1A1A;
+  --muted: #5A5A5A;
+  --hairline: #CFC8BE;
+  --accent-navy: #2A4F7C;
+  --accent-terracotta: #A84A35;
+  --card-bg: #FFFDF8;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 17px;
+  line-height: 1.65;
+}
+h1, h2, h3, .location {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+a { color: var(--accent-navy); text-decoration: none; border-bottom: 1px solid currentColor; }
+a:hover { opacity: 0.75; }
+main { max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; }
+
+/* Hero */
+.hero {
+  padding: 72px 24px 48px;
+  border-bottom: 0.5px solid var(--hairline);
+  text-align: left;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.eyebrow-top {
+  font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 24px;
+}
+.hero h1 {
+  font-size: 44px; line-height: 1.12; margin: 0 0 16px; max-width: 640px;
+}
+.hero .subhead {
+  font-size: 19px; color: var(--muted); line-height: 1.55; max-width: 600px;
+  margin: 0 0 32px;
+}
+.stats {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px;
+  max-width: 600px; padding-top: 24px; border-top: 0.5px solid var(--hairline);
+}
+.stat-num {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 38px; line-height: 1; font-weight: 700;
+}
+.stat-label {
+  font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--muted); margin-top: 8px;
+}
+
+/* Sections */
+section.prose { margin: 56px 0; }
+section.prose h2 {
+  font-size: 28px; margin: 0 0 24px; line-height: 1.2;
+}
+section.prose h3 {
+  font-size: 18px; margin: 28px 0 10px; font-weight: 700;
+}
+section.prose p { margin: 0 0 18px; }
+section.prose .subsec { margin-bottom: 32px; }
+.sources { font-size: 14px; color: var(--muted); }
+
+/* Expandable context */
+section.context details { border-top: 0.5px solid var(--hairline); border-bottom: 0.5px solid var(--hairline); padding: 14px 0; }
+section.context summary {
+  cursor: pointer; font-family: "Playfair Display", Georgia, serif;
+  font-size: 18px; font-weight: 700; color: var(--accent-navy);
+  list-style: none; padding: 2px 0;
+}
+section.context summary::-webkit-details-marker { display: none; }
+section.context summary::before { content: "+ "; display: inline-block; width: 20px; color: var(--muted); font-weight: 400; }
+section.context details[open] summary::before { content: "− "; }
+section.context details[open] summary { margin-bottom: 12px; }
+section.context .context-body { padding: 0 0 0 20px; }
+
+blockquote {
+  border-left: 2px solid var(--accent-terracotta);
+  margin: 24px 0; padding: 4px 0 4px 22px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic; font-size: 19px; line-height: 1.55;
+  color: #333;
+}
+blockquote cite {
+  display: block; font-style: normal; font-size: 13px; color: var(--muted);
+  font-family: "Source Sans 3", sans-serif; margin-top: 10px;
+}
+
+ol.ask {
+  padding-left: 0; list-style: none; counter-reset: ask;
+  margin: 0 0 24px;
+}
+ol.ask > li {
+  counter-increment: ask; position: relative;
+  padding: 16px 0 16px 48px; border-bottom: 0.5px solid var(--hairline);
+}
+ol.ask > li:last-child { border-bottom: 0; }
+ol.ask > li::before {
+  content: counter(ask);
+  position: absolute; left: 0; top: 16px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 28px; font-weight: 700; color: var(--accent-navy);
+}
+
+/* Timeline + card */
+.timeline-intro { font-size: 14px; color: var(--muted); margin: 12px 0 32px; }
+article.incident {
+  background: var(--card-bg);
+  border: 0.5px solid var(--hairline);
+  border-radius: 2px;
+  padding: 22px 24px;
+  margin: 24px 0;
+  opacity: 0; transform: translateY(6px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+article.incident.visible { opacity: 1; transform: none; }
+article.incident.heavier {
+  border-width: 0.5px; border-color: #9a5849; box-shadow: 0 0 0 1px #9a5849 inset;
+}
+article.incident .eyebrow {
+  font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 8px;
+}
+article.incident h3.location {
+  font-size: 22px; margin: 0 0 12px; line-height: 1.2; color: var(--fg);
+}
+article.incident .pills { margin-bottom: 14px; display: flex; gap: 6px; flex-wrap: wrap; }
+.pill {
+  display: inline-block; padding: 2px 10px; border-radius: 2px;
+  font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+  font-weight: 600;
+  border: 0.5px solid var(--hairline);
+  color: var(--muted); background: transparent;
+}
+.pill.type { color: var(--fg); }
+.pill.hit-and-run { background: var(--accent-terracotta); color: white; border-color: var(--accent-terracotta); }
+.pill.fatality { background: #6b1a1a; color: white; border-color: #6b1a1a; }
+.pill.reported { background: var(--accent-navy); color: white; border-color: var(--accent-navy); }
+article.incident .description { font-size: 16px; color: var(--fg); margin: 0 0 14px; }
+article.incident .excerpt {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic; font-size: 16px; line-height: 1.55;
+  border-left: 2px solid var(--hairline);
+  margin: 14px 0; padding: 2px 0 2px 18px;
+  color: #333;
+}
+article.incident .clips { margin: 14px 0 8px; }
+.clip {
+  padding: 8px 0; border-bottom: 0.5px dotted var(--hairline);
+}
+.clip:last-child { border-bottom: none; }
+.clip-meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; font-family: ui-monospace, monospace; letter-spacing: 0.02em; }
+.clip.primary .clip-meta::before { content: "▶ primary  "; color: var(--accent-navy); font-weight: 700; letter-spacing: 0.04em; }
+.tg.APD { color: #1b4f8a; font-weight: 700; }
+.tg.AFD { color: var(--accent-terracotta); font-weight: 700; }
+.clip audio { height: 34px; width: 100%; max-width: 480px; }
+.links { margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; }
+a.coverage {
+  font-size: 13px; color: var(--accent-navy); border-bottom: 0;
+  letter-spacing: 0.02em;
+}
+a.coverage:hover { text-decoration: underline; }
+
+footer {
+  margin-top: 80px; padding: 40px 0 0;
+  border-top: 0.5px solid var(--hairline);
+  font-size: 13px; color: var(--muted);
+}
+footer .byline { font-family: "Playfair Display", Georgia, serif; font-size: 16px; color: var(--fg); margin-bottom: 12px; }
+footer a { color: var(--muted); }
+
+/* Beltway addendum */
+.addendum {
+  margin: 64px 0 24px; padding: 22px 24px;
+  background: transparent; border-top: 0.5px solid var(--hairline); border-bottom: 0.5px solid var(--hairline);
+  font-size: 15px; color: var(--muted);
+}
+.addendum h3 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.1em;
+               color: var(--accent-navy); margin: 0 0 8px; font-family: "Source Sans 3", sans-serif;
+               font-weight: 700; }
+.addendum .eyebrow { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* Mobile */
+@media (max-width: 640px) {
+  .hero { padding: 48px 20px 32px; }
+  .hero h1 { font-size: 32px; }
+  .hero .subhead { font-size: 17px; }
+  .stats { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .stat-num { font-size: 30px; }
+  main { padding: 24px 20px 60px; }
+  section.prose h2 { font-size: 24px; }
+  article.incident { padding: 18px 18px; }
+  article.incident h3.location { font-size: 19px; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow-top">April 1&ndash;22, 2026 &middot; Alexandria, Virginia &middot; A personal research project</div>
+  <h1>Eighteen people were hit by vehicles in Alexandria in twenty-two days.</h1>
+  <p class="subhead">Six made the news. One person died. Every incident below is documented with the original 911 dispatch audio.</p>
+  <div class="stats">
+    <div><div class="stat-num">18</div><div class="stat-label">Total strikes</div></div>
+    <div><div class="stat-num">6</div><div class="stat-label">Publicly reported</div></div>
+    <div><div class="stat-num">7</div><div class="stat-label">Hit-and-runs</div></div>
+    <div><div class="stat-num">1</div><div class="stat-label">Fatalities</div></div>
+  </div>
+</header>
+
+<main>
+
+<section class="prose opening">
+  <p>Alexandria has a data gap when it comes to pedestrian, cyclist, and scooter
+safety, and I noticed it by accident.</p>
+
+<p>I serve on the Del Ray Citizens Association's traffic calming committee.
+When we rebuilt the committee last year, we asked our APD representative to
+come talk to us about crashes on Mount Vernon Avenue. Several of the incidents
+we already knew about &mdash; from the mom text threads that run parallel to
+everything in this neighborhood &mdash; were missing from the official list.
+That's how I learned that a crash leaves no public record unless there's
+enough property or human damage, and that even the ones that do don't show up
+in the state's TREADS database for months. A Vision Zero city can't afford
+to fly blind on the incidents it never sees.</p>
+
+<p>On the Wednesday evening I heard the Braddock Metro hit-and-run come over
+the police scanner &mdash; a pedestrian struck in the crosswalk, suspect caught
+nine minutes later, nothing in the news the next morning &mdash; I wondered
+how often that was happening. I spent the following week building a tool that
+downloads every Alexandria 911 dispatch call, transcribes it with OpenAI's
+Whisper, and flags the ones that sound like pedestrian, cyclist, or scooter
+strikes. I reviewed every flag myself. Below is every verified incident I
+could find from April 1 through April 22, 2026. Six of them had made the
+news. Twelve had not.</p>
+
+</section>
+
+<section class="prose context">
+  <details>
+    <summary>Background: what the public can see and what it can't</summary>
+    <div class="context-body">
+      <div class="subsec">
+  <h3>What other outlets reported.</h3>
+  <p>Two Alexandria news outlets began connecting the dots in April. The
+  Alexandria Brief noted in an April 23 article that
+  <em>&ldquo;the five incidents described in this article reflect those APD
+  announced publicly on social media &mdash; typically because they resulted
+  in road closures or sustained police activity &mdash; and may not represent
+  every pedestrian-involved crash in Alexandria during that period.&rdquo;</em>
+  ALXnow published a companion piece the same day. The caveat is correct. What
+  follows below is an attempt to measure the gap between what APD posts and
+  what dispatch heard.</p>
+  <p class="sources">
+    <a href="https://www.alexandriabrief.com/pedestrian-hit-and-run-closes-section-of-king-street-fifth-pedestrian-incident-alexandria-police-have-posted-about-this-month/" target="_blank" rel="noopener">The Alexandria Brief</a>
+    &middot;
+    <a href="https://www.alxnow.com/2026/04/23/hit-and-run-on-king-street-adds-to-string-of-pedestrian-crashes-in-alexandria/" target="_blank" rel="noopener">ALXnow</a>
+  </p>
+</div>
+
+<div class="subsec">
+  <h3>What the Vision Zero dashboard shows.</h3>
+  <p>Alexandria's
+  <a href="https://www.alexandriava.gov/VisionZero" target="_blank" rel="noopener">Vision Zero dashboard</a>
+  draws from crash reports that officers file with the state. Under Virginia
+  Code §&nbsp;46.2-373, those reports are required only when there's a death,
+  a confirmed injury, or property damage of $1,500 or more. (For drivers in
+  hit-and-run collisions, a separate provision requires self-reporting at
+  $500 of damage.) The dashboard itself notes that data may not appear for
+  at least two months after a crash. At the time of this writing, no
+  Alexandria 2026 data has been published to the dashboard yet.</p>
+</div>
+
+<div class="subsec">
+  <h3>Why dispatch data is different.</h3>
+  <p>Three filters sit between what happens and what the public sees: the
+  statutory reporting threshold, what can be confirmed on scene, and the
+  months-long publication lag. Dispatch audio is upstream of all three. It
+  captures what someone called 911 about, before an officer decides whether
+  a crash report is required, before the victim says they're fine and leaves,
+  and long before anything enters the state database.</p>
+  <p>Dispatch over-counts reality &mdash; some calls turn out minor or get
+  corrected on investigation. The reportable-crash dashboard under-counts
+  reality. Truth sits between them. Right now, the public only has access to
+  the under-count, on a two-month delay.</p>
+</div>
+
+    </div>
+  </details>
+</section>
+
+<section class="timeline">
+  <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The eighteen</h2>
+  <p class="timeline-intro">In chronological order. Click any clip to play.</p>
+  
+<article class="incident" id="incident-9">
+  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 9:22&nbsp;AM</div>
+  <h3 class="location">Mount Vernon Ave &amp; E Luray Ave</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
+  <p class="description">Pedestrian hit at Mount Vernon and Luray at 9am on a Saturday morning - right in the middle of the Farmers Market / Matt &amp; Tonys brunch rush. The DRCA&#x27;s police report the next week on this one was &quot;we know a vehicle incident happened at Luray Saturday morning but that&#x27;s all the detail we have.&quot; Reviewing the calls, we now know it was a pedestrian struck - but because the pedestrian refused medical attention, nothing further will be recorded in any database.</p>
+  <blockquote class="excerpt">233 alpha for the motor vehicle crash. Pedestrian struck Mount Vernon and East Luray, Mount Vernon and East Luray. Caller was hit by a Honda Accord, that&#x27;s still on scene. Medics refused, so routine response.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">9:22:03&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_09/69d11090302a9885ed9c095c.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">9:22:22&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 16s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_09/69d110a1302a9885ed9c2f69.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-11">
+  <div class="eyebrow">Saturday,  April&nbsp;4 &middot; 4:01&nbsp;PM</div>
+  <h3 class="location">Mount Vernon Ave at E Braddock Rd (in the Braddock Project Area)</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
+  <p class="description">An adult male pedestrian was hit by a driver while in the crosswalk and received medical attention.  We know from news coverage that the vehicle was cited at the time of response, which tells us there were either additional witnesses or video to confidently show the driver was at fault. Even after several conversations with officers, citizens do not know the direction of travel of the vehicle.</p>
+  <blockquote class="excerpt">235 Alpha unit to assist with the crash. Pedestrian struck Mount Vernon East Braddock. Information is still coming in. Priority response is authorized.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">4:01:32&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 9s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_11/69d16e28302a9885ed794d19.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:03:36&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_11/69d16eaa302a9885ed7a9b53.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:04:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_11/69d16ec9302a9885ed7ae825.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:04:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_11/69d16eea302a9885ed7b328f.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    <a class="coverage" href="https://x.com/AlexandriaVAPD/status/2040529795893657660" target="_blank" rel="noopener">APD statement &rarr;</a>
+  </div>
+</article>
+
+<article class="incident" id="incident-14">
+  <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 12:15&nbsp;PM</div>
+  <h3 class="location">S Royal St &amp; Green St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
+  <p class="description">Previously unknown before this analysis. A US Park Police Officer called in a female pedestrian who had been struck by a vehicle.</p>
+  <blockquote class="excerpt">Units 214, 224, crash 5 and 220 for the pedestrian struck South Royal and Green Street, South Royal and Green. Call came in to us from U.S. Park Police advising that they&#x27;re out with a female that was struck by a vehicle. Priority response is authorized at 1220.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">12:20:29&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_14/69d52ee7302a9885eda12213.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">12:20:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_14/69d52f04302a9885eda16f7f.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-15">
+  <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 3:22&nbsp;PM</div>
+  <h3 class="location">Sanger Ave &amp; N Van Dorn St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
+  <p class="description">Serious pedestrian strike with injury at Sanger and Van Dorn. This one did receive news coverage because APD tweeted a street closure. </p>
+  
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">3:22:39&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 34s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d559ae302a9885ed119e97.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:22:52&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d559a2302a9885ed11812b.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:23:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 22s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d559cf302a9885ed11fadc.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:24:01&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d559ed302a9885ed124fc6.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:25:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d55a4c302a9885ed136af0.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:26:14&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d55a68302a9885ed13bfe0.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">3:26:55&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_15/69d55a94302a9885ed14314b.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    <a class="coverage" href="https://x.com/AlexandriaVAPD/status/2041610113161544011?s=20" target="_blank" rel="noopener">APD statement &rarr;</a>
+  </div>
+</article>
+
+<article class="incident" id="incident-25">
+  <div class="eyebrow">Wednesday,  April&nbsp;8 &middot; 8:15&nbsp;PM</div>
+  <h3 class="location">Seminary Rd &amp; N Mark Center Ave</h3>
+  <div class="pills"><span class="pill type scooter">Scooter</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">Female on a scooter hit by a driver. Caller said the driver was trying to leave the scene.</p>
+  <blockquote class="excerpt">Headquarters any units a break for the MVC. Pit, Pedestrian struck, Seminary and Mark Center. Seminary and Mark Center. Priority responses authorized at 20-16 hours.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">8:16:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_25/69d6effb302a9885edfccf74.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:15:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_25/69d6efd1302a9885edfc58b8.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:17:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_25/69d6f018302a9885edfd2d22.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:17:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_25/69d6f044302a9885edfdaa22.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-26">
+  <div class="eyebrow">Thursday,  April&nbsp;9 &middot; 2:42&nbsp;PM</div>
+  <h3 class="location">4368 King St (Liberty Gas Station)</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">Pedestrian caller(s) - multiple - saying they were on foot and struck by a female driver in a red sedan who then left the scene. They asked for the gas station cameras to be reviewed. Because there were no injuries or property damage, this one will not be recorded in Vision Zero database.</p>
+  <blockquote class="excerpt">MVC hit-and-run, no injury, pedestrian struck, 4368 King Street, 4368 King Street. Callers stating they were on foot and struck by a vehicle. Described it as a red sedan, medics have been refused so far. </blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">2:42:47&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_26/69d7f3457d3c667f1df71fa2.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-31">
+  <div class="eyebrow">Saturday,  April&nbsp;11 &middot; 7:22&nbsp;PM</div>
+  <h3 class="location">Valley Forge Dr &amp; S Pickett St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
+  <p class="description">In this incident, AFD was responding to a residential building fire in the area, and as they did so a private vehicle that was pulling out of their way struck a pedestrian. That pedestrian required medical attention and a secondary emergency event. AlxNow appears to have caught this one on the scanner and asked APD for further comment but never published any update.</p>
+  <blockquote class="excerpt">We&#x27;re heading to the we&#x27;re heading to the box alarm in car tried to get out of our way and hit a pedestrian in the street at Valley Forge in South Pickett. He&#x27;s laying in the street.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">7:22:14&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad7b67d3c667f1dd2b4d0.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">7:23:13&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 27s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad8017d3c667f1dd3ef47.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">7:26:34&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad8ba7d3c667f1dd71515.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">7:27:02&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad8e37d3c667f1dd7b729.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">7:29:44&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 13s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad97c7d3c667f1dda3318.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">7:30:48&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_31/69dad9af7d3c667f1ddb1ad3.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    <a class="coverage" href="https://www.alxnow.com/2026/04/13/pedestrian-struck-during-fire-response-in-landmark-area/" target="_blank" rel="noopener">Read coverage &rarr;</a>
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-32">
+  <div class="eyebrow">Saturday,  April&nbsp;11 &middot; 9:07&nbsp;PM</div>
+  <h3 class="location">Stovall St near Mill Rd</h3>
+  <div class="pills"><span class="pill type scooter">Scooter</span></div>
+  <p class="description">A scooter was struck by a driver on Stovall near Mill Rd. (near the Wegmans). Because medical attention was refused on scene, this incident is not Vision Zero database reportable. No further information is available regarding whether the driver stayed on scene, but 911 call records or police records should show this.</p>
+  <blockquote class="excerpt">X-ray 908. 908. Can you start a unit reference accident, hit and run, a pedestrian was struck on the street. Um, that&#x27;s Stovall right before Mill.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">9:07:31&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_32/69daf0697d3c667f1d4dd1cb.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">9:08:29&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_32/69daf09c7d3c667f1d4ea57a.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-36">
+  <div class="eyebrow">Tuesday,  April&nbsp;14 &middot; 9:32&nbsp;AM</div>
+  <h3 class="location">906 Wolfe St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">Not much information here but it happened at 9:30am in Old Town along Richmond Highway, and is described as a hit and run. </p>
+  <blockquote class="excerpt">213 at the back for the hit and run pedestrian struck 906 Wolf, 906 Wolf for a pedestrian that was struck by a vehicle. Unknown description of vehicle. Pedestrians refusing to give any further.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">9:32:37&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 22s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_36/69de42127d3c667f1d469c18.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident heavier" id="incident-40">
+  <div class="eyebrow">Wednesday,  April&nbsp;15 &middot; 6:05&nbsp;PM</div>
+  <h3 class="location">5750 Sanger Ave (Near William Ramsey Elementary)</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
+  <p class="description">Dispatch describes this as a 7 year old male hit by a driver, news accounts say he was 11. From a presentation to Northern Virginia Families for Safe Streets, I understand that this child may have been walking behind a bus at the time.</p>
+  <blockquote class="excerpt">
+332-32-November-1, 32-November-2 for the pedestrian struck 5750 Sanger Avenue, 5750 Sanger Avenue. Priority response is authorized, 1806. You&#x27;re responding for a 7-year-old male that was hit by a gray vehicle, Virginia tag, ********. We do have fire enroute as well.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">6:05:30&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_40/69e00bc4d7432e855c6b44e1.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">6:05:59&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_40/69e00be8d7432e855c6c0150.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">6:06:56&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 12s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_40/69e00c0fd7432e855c6ccc03.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-44">
+  <div class="eyebrow">Thursday,  April&nbsp;16 &middot; 8:48&nbsp;AM</div>
+  <h3 class="location">Franklin St &amp; S Alfred St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
+  <p class="description">Pedestrian struck in the crosswalk in Old Town during morning hours. From the dialogue it looks like no motor unit was available at the time to manage a traffic closure, which may be why this did not end up on the APD twitter.</p>
+  <blockquote class="excerpt">223 and any unit that could back for Franklin and South Alfred, Franklin and South Alfred for a pedestrian struck. It&#x27;s going to be a gentleman that was in the crosswalk that got hit by a vehicle. The vehicle is a grey Dodge Ram stuck to the pedestrian. No visible bleeding at this time. Medics are also responding to the location. Priority response is authorized.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">8:49:12&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 25s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0dae7d7432e855c1ea551.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:48:55&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 18s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0daccd7432e855c1e3617.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:49:43&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0daf2d7432e855c1ed412.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:49:55&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0dafad7432e855c1ef832.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:50:05&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db07d7432e855c1f39a6.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:50:18&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db0fd7432e855c1f60ea.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:50:20&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db1dd7432e855c1fa8da.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:50:29&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db1cd7432e855c1fa511.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:50:38&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db25d7432e855c1fcc02.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:52:03&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 13s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0db83d7432e855c2194ef.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">8:58:14&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_44/69e0dcf7d7432e855c28a4fa.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-45">
+  <div class="eyebrow">Thursday,  April&nbsp;16 &middot; 4:46&nbsp;PM</div>
+  <h3 class="location">N Beauregard St &amp; Highview Ln</h3>
+  <div class="pills"><span class="pill type cyclist">Cyclist</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">A bicyclist was struck from behind and the driver fled — but not before handing the victim a hundred-dollar bill. Reported ~10 minutes after the fact from a bus stop near North Beauregard and Highview. Driver described as operating a white Toyota Prius.</p>
+  <blockquote class="excerpt">Motor vehicle accident with injuries involving a bike occurred about 10 minutes ago at the intersection of North Beauregard and North Highview. Caller advised his rear tire was hit by a vehicle, complaining of leg pain — but the other driver gave him a hundred dollars and left. The striking vehicle is going to be a white Toyota Prius.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">4:48:58&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 35s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_45/69e14b62d7432e855c6fd201.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:46:04&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_45/69e14aa2d7432e855c6a8f6c.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:47:07&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 8s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_45/69e14ad9d7432e855c6c06e6.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-46">
+  <div class="eyebrow">Friday,  April&nbsp;17 &middot; 12:09&nbsp;AM</div>
+  <h3 class="location">Potomac Ave &amp; Richmond Hwy</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">Hit and run accident in which a female scooter rider is stuck around 9:15am.</p>
+  <blockquote class="excerpt">Hit and run, Richmond and Potomac, Richmond Highway, Potomac Avenue, priority response triple zero nine. Call is still collecting further. A female was on a scooter struck by an unknown vehicle. Fire is en route.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">12:09:27&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 15s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_46/69e1b28ad7432e855ccb84cf.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">12:09:16&nbsp;AM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_46/69e1b282d7432e855ccb5c34.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">12:10:05&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_46/69e1b2a7d7432e855ccc339f.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-52">
+  <div class="eyebrow">Saturday,  April&nbsp;18 &middot; 1:37&nbsp;PM</div>
+  <h3 class="location">Commonwealth Ave &amp; Uhler Ave</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">Appears to have been a hit and run of a scooter rider with injury reported Saturday afternoon right across from Mount Vernon Community School.</p>
+  <blockquote class="excerpt">Rescue 209, Medic 209, EMS 201, operate on 2 Bravo, Fox, 202-33, Bicyclist Struck, Commonwealth Avenue, and West Uhler Avenue. Rescue 209, Medic 209, EMS 201.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">1:37:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 17s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_52/69e3c187d7432e855ce633c1.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">1:37:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_52/69e3c18ad7432e855ce64062.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-54">
+  <div class="eyebrow">Saturday,  April&nbsp;18 &middot; 9:11&nbsp;PM</div>
+  <h3 class="location">Reading Ave &amp; N Beauregard St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
+  <p class="description">Adult male pedestrian &quot;struck&quot; (Trigger warning for this audio, it&#x27;s giving &quot;run over&quot;)</p>
+  <blockquote class="excerpt">331, it&#x27;s going to be a representing MVC pedestrian instructor reading at North Beauregard. The driver is still on scene. It&#x27;s going to be a Jeep Wrangler. State of the subject&#x27;s feet have been run over. The male is conscious and breathing.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">9:12:42&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_54/69e42c1ad7432e855c44ab01.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">9:11:48&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_54/69e42be7d7432e855c43a4b7.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">9:11:50&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_54/69e42bebd7432e855c43bc89.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident heavier" id="incident-59">
+  <div class="eyebrow">Monday,  April&nbsp;20 &middot; 5:26&nbsp;PM</div>
+  <h3 class="location">N St Asaph St &amp; Montgomery St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill fatality">Fatality</span><span class="pill reported">Reported</span></div>
+  <p class="description">62 year old female pedestrian was killed by the driver of a black suburban during evening rush hour. It was originally reported as a hit and run. These sources indicate the driver stopped at Montgomery and Washington a minute or two later.</p>
+  <blockquote class="excerpt">Caller advised the striking vehicles of black suburban. Pedestrian is down on the ground not breathing at this time.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">5:26:58&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 8s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69a2ed7432e855c484d86.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:27:02&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 19s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69a3cd7432e855c48b0f9.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:27:20&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 31s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69a61d7432e855c49b78f.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:27:55&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 2s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69a60d7432e855c49ad9c.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:28:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 18s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69a8cd7432e855c4ad594.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:29:19&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69abcd7432e855c4c3730.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:29:27&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 20s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69aced7432e855c4cb859.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:30:25&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69afcd7432e855c4da5f3.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">5:30:41&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_59/69e69b0cd7432e855c4e073d.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-64">
+  <div class="eyebrow">Wednesday,  April&nbsp;22 &middot; 4:38&nbsp;PM</div>
+  <h3 class="location">500 E Braddock Rd at Braddock Metro (&quot;Braddock Metro Crosswalk&quot;)</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill hit-and-run">Hit and run</span></div>
+  <p class="description">The call that inspired this project. A female pedestrian was struck in the crosswalk by a vehicle which then proceeded to turn right onto West and was subsequently chased onto Duke St. Because traffic was not shut down and the pedestrian is ok, this one may not be reportable elsewhere, but as the second pedestrian struck this month in the Braddock Road project area, it should be clearly be of public interest for council.</p>
+  <blockquote class="excerpt">
+324 and 332 for the MVC pedestrian struck, 500 East Braddock Road, 500 East Braddock Road, priority response is authorized at 1639 hours, striking vehicle is going to be a black SUV, unknown tag, attempting to get the direction of travel. It&#x27;s on the crosswalk to the Braddock Road Metro Station.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">4:38:19&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 40s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e931e8d7432e855cb364be.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:38:54&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 18s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e931f5d7432e855cb3aa6c.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:39:16&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 3s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e931fbd7432e855cb3cdcb.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:39:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93210d7432e855cb43e13.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:39:54&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 2s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9321fd7432e855cb48f84.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:40:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9323cd7432e855cb53a97.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:40:31&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9324dd7432e855cb5a1eb.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:41:02&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9326bd7432e855cb647d0.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:41:26&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93281d7432e855cb6be70.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:41:40&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 12s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93293d7432e855cb71c12.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:42:38&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e932cfd7432e855cb87210.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:43:55&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9331dd7432e855cba3521.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:44:16&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 5s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93329d7432e855cba7bdf.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:44:50&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 11s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93355d7432e855cbb7998.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:45:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 10s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9336fd7432e855cbc02ad.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:45:50&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 17s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93395d7432e855cbccba2.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:45:59&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 6s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e93395d7432e855cbccb81.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:46:11&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e9339ed7432e855cbcfa90.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:46:32&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 7s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e933b5d7432e855cbd7857.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:46:51&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 23s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e933dad7432e855cbe2e1c.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">4:47:39&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 9s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_64/69e933fad7432e855cbee05b.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+<article class="incident" id="incident-66">
+  <div class="eyebrow">Wednesday,  April&nbsp;22 &middot; 11:00&nbsp;PM</div>
+  <h3 class="location">King St &amp; Park Rd</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span><span class="pill reported">Reported</span></div>
+  <p class="description">Although the original call said hit and run, this Pedestrian Strike was not. The driver did stay while police responded to this Rosemont pedestrian struck call. This call did lead to an APD traffic shutdown tweet and kicked off the &quot;this seems to be happening a lot&quot; media coverage we&#x27;ve seen.</p>
+  <blockquote class="excerpt">Units 112, 312, and 315, it&#x27;s going to be for the accident hit and run pedestrian struck at the intersection of King Street and Park Road, King Street and Park Road. Scan priority response is authorized. We do have medics responding, again there is a victim in the road.</blockquote>
+  <div class="clips">
+    
+<div class="clip primary">
+  <div class="clip-meta">
+    <span class="clip-time">11:00:46&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_66/69e98b7fd7432e855cae7c62.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">11:00:36&nbsp;PM &middot; <span class="tg AFD">AFD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_66/69e98b64d7432e855cadf355.m4a"></audio>
+</div>
+
+<div class="clip">
+  <div class="clip-meta">
+    <span class="clip-time">11:01:18&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 4s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_66/69e98b85d7432e855cae94ed.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+  </div>
+</article>
+
+  
+<aside class="addendum">
+  <div class="eyebrow">Tuesday, April&nbsp;7  &middot;  outside Alexandria city limits</div>
+  <h3>Plus one more: a Virginia State Trooper struck on I-495</h3>
+  <p>A State Trooper was struck by a vehicle while pursuing a suspect. The injured officer was taken to a nearby hospital for treatment.</p>
+  <audio controls preload="none" src="audio/incident_21/69d5ad45302a9885edffa3c9.m4a"></audio>
+  <p style="margin-top:10px">
+    <a href="https://wtop.com/virginia/2026/04/trooper-struck-by-vehicle-while-following-virginia-man-running-across-capital-beltway/" target="_blank" rel="noopener">WTOP coverage &rarr;</a>
+  </p>
+  <p style="font-size:13px;margin-top:10px">Not counted in the 18 above because
+  the incident occurred on I-495 (Capital Beltway), outside Alexandria city
+  limits. Included here because Alexandria units responded alongside Virginia
+  State Police, and because a pedestrian strike is a pedestrian strike.</p>
+</aside>
+
+</section>
+
+<section class="prose charlottesville">
+  <h2>What a comparable Virginia city already does</h2>
+
+<p>Alexandria is not the only Virginia locality that has to work with Virginia
+Code §&nbsp;46.2-373. Every city operates under the same threshold. But not
+every city stops there.</p>
+
+<p>Charlottesville Police Department has had a departmental general order
+since at least 2020 that requires an incident report for every pedestrian or
+bicyclist incident, regardless of whether the statutory reporting threshold
+is met. From the order itself:</p>
+
+<blockquote>
+  Whether on public or private property an incident report is required for
+  accidents that result in death, critical injury, pedestrian/bicyclist,
+  Hit and Run and all Hazardous Material.
+  <cite>&mdash; Charlottesville Police Department, General Order 542.01
+  (section IV.D.1).
+  <a href="https://charlottesville.gov/DocumentCenter/View/613/542-01---Vehicle-Crash-Investigation-PDF"
+     target="_blank" rel="noopener">View the PDF</a>.</cite>
+</blockquote>
+
+<p>The policy creates an internal record for every pedestrian or bicyclist
+incident, regardless of state reporting threshold. I have asked APD through
+my DRCA channels whether Alexandria has an equivalent policy; at the time of
+this writing, I have not found one on the public record and I am awaiting
+confirmation. This section will be updated as I learn more.</p>
+
+</section>
+
+<section class="prose ask">
+  <h2>What Alexandria should do</h2>
+
+<ol class="ask">
+  <li><b>Adopt a departmental policy, modeled on Charlottesville's General
+      Order 542.01, requiring an incident report for every pedestrian,
+      cyclist, and scooter strike &mdash; regardless of whether the
+      statutory reporting threshold is met.</b> The policy should explicitly
+      include scooters, which did not exist in meaningful numbers when
+      Charlottesville adopted its policy in 2020.</li>
+  <li><b>Publish the resulting data on the Vision Zero dashboard, or
+      alongside it.</b> Flag incidents as preliminary; update them as
+      investigations conclude; distinguish dispatch-derived incident counts
+      from final reportable-crash counts. Other cities publish EMS-derived
+      and dispatch-derived roadway incident data as a complement to
+      reportable-crash data. Alexandria should too.</li>
+</ol>
+
+<p>A resident asking &ldquo;how many people were hit by vehicles in
+Alexandria last month?&rdquo; should be able to get an answer within days,
+not eighteen months. That's what Vision Zero requires in spirit. It's also
+what it promises.</p>
+
+</section>
+
+<section class="prose methodology">
+  <h2>How this was built and what it can and can't show</h2>
+
+<p><b>The tool.</b> A Python program polls
+<a href="https://openmhz.com/system/alex" target="_blank" rel="noopener">OpenMHz</a>
+for new recordings from Alexandria Police and Fire dispatch talkgroups,
+transcribes each with OpenAI's Whisper, and flags recordings whose transcripts
+match a keyword list for pedestrian, cyclist, scooter, or crash activity on
+Mount Vernon Avenue and Braddock Road. A human &mdash; me, for this review
+&mdash; reviewed every flagged recording and marked it real, false, or
+unclear. All 28,321 recordings from April 1&ndash;23 went through the same
+pipeline; 129 flagged; 73 incident clusters produced; this piece features 18
+Alexandria-city pedestrian/cyclist/scooter strikes, plus one additional
+incident involving Alexandria units handling a Virginia State Trooper strike
+on I-495 at Telegraph Road on April&nbsp;7 (covered separately
+<a href="https://wtop.com/virginia/2026/04/trooper-struck-by-vehicle-while-following-virginia-man-running-across-capital-beltway/"
+   target="_blank" rel="noopener">by WTOP</a>).</p>
+
+<p><b>Scope.</b> April 1 through April 22, 2026. Alexandria, Virginia.
+Pedestrian, cyclist, and scooter strikes that generated a dispatch call on
+primary police (APD 1) or fire/EMS (AFD 2 Alpha) talkgroups. Does not
+include incidents on secondary tactical or incident-command channels.</p>
+
+<p><b>Exclusions.</b> Incidents that turned out on investigation not to be
+strikes are excluded. One call during the review period came in reporting a
+cyclist struck by a vehicle; the responding officer on scene clarified that
+a passenger had fallen off the back of the bike &mdash; that call is not
+among the incidents below. Five unrelated calls that the flag logic
+triggered (a parked-vehicle strike, cars driving on a pedestrian bridge,
+three car-on-car crashes) were excluded because they were not
+pedestrian/cyclist/scooter incidents.</p>
+
+<p><b>What this can't see.</b> Follow-up investigation detail, witness
+statements, final injury assessments, and whether charges were ultimately
+filed do not flow through dispatch. Some incidents may on full investigation
+turn out less serious than they sounded on the radio, and the reverse is
+also true: dispatch often has only sparse initial information on serious
+incidents. A handful of corrections in either direction does not close the
+gap between 6 and 18.</p>
+
+<p><b>Known omission.</b> At least one Alexandria pedestrian incident in
+this window did not go over primary dispatch radio at all &mdash; a
+predawn incident on April 1 at Mill Road and Eisenhower Avenue that I
+learned about independently through advocacy contacts. Some fraction of
+pedestrian-at-fault or walk-in-reported incidents may be handled through
+channels this tool cannot see. The 18 figure is a count of what the tool
+caught and I verified; the true count of pedestrian incidents in Alexandria
+during this window is almost certainly higher.</p>
+
+<p><b>Where the data lives.</b> The full corpus (28,321 transcripts, 129
+flagged transmissions, 73 incident clusters) is preserved in the underlying
+dataset. Raw audio for every incident below was downloaded during the
+review window so it survives the 30-day OpenMHz archive rollover.</p>
+
+</section>
+
+<footer>
+  <p class="byline">By Elena Hutchison. Published as an individual resident.</p>
+<p class="credits">
+  Dispatch audio: <a href="https://openmhz.com" target="_blank" rel="noopener">OpenMHz</a>.
+  Transcription: OpenAI Whisper.
+  Source reporting: <a href="https://www.alexandriabrief.com/" target="_blank" rel="noopener">The Alexandria Brief</a> and
+  <a href="https://www.alxnow.com/" target="_blank" rel="noopener">ALXnow</a>.
+  Policy reference: Charlottesville Police Department General Order 542.01.
+</p>
+<p class="handoff">The scanner-monitoring tool described in the methodology is
+being prepared for handoff to Northern Virginia Families for Safe Streets
+(NVFSS), whose college interns will maintain it for ongoing regional use.</p>
+
+  <p class="contact"><a href="mailto:ecaudle@gmail.com">ecaudle@gmail.com</a></p>
+</footer>
+
+</main>
+
+<script>
+// Pause other audio elements when one starts
+document.querySelectorAll('audio').forEach(a => {
+  a.addEventListener('play', () => {
+    document.querySelectorAll('audio').forEach(o => {
+      if (o !== a && !o.paused) o.pause();
+    });
+  });
+});
+
+// Subtle fade-in on scroll
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('article.incident').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

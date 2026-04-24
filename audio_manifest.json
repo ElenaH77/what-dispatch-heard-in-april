@@ -1,0 +1,2963 @@
+{
+  "incidents": [
+    {
+      "incident_id": 5,
+      "start_time_utc": "2026-04-02T01:40:58+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69cdc8c0302a9885ed512b41",
+          "time_utc": "2026-04-02T01:39:07+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Bay 33 Alpha. Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc8c0302a9885ed512b41.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775093947.m4a"
+        },
+        {
+          "openmhz_id": "69cdc8c7302a9885ed51483f",
+          "time_utc": "2026-04-02T01:39:12+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "325. Okay.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc8c7302a9885ed51483f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775093952.m4a"
+        },
+        {
+          "openmhz_id": "69cdc8cd302a9885ed5157cd",
+          "time_utc": "2026-04-02T01:39:19+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "How much for my $6.59 ma'am? You can add me too.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc8cd302a9885ed5157cd.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775093959.m4a"
+        },
+        {
+          "openmhz_id": "69cdc8e9302a9885ed51a2fb",
+          "time_utc": "2026-04-02T01:39:47+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "...36 to get them to your left as well.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc8e9302a9885ed51a2fb.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775093987.m4a"
+        },
+        {
+          "openmhz_id": "69cdc8f8302a9885ed51cc11",
+          "time_utc": "2026-04-02T01:40:03+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "We do have medics responding as well.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc8f8302a9885ed51cc11.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094003.m4a"
+        },
+        {
+          "openmhz_id": "69cdc915302a9885ed5218f6",
+          "time_utc": "2026-04-02T01:40:20+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "2069, are they going to be interlooping by landmark off of Van Dorn? They just stated they're near the intersection of Duke Street and North Van Dorn. Alright, thank you.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc915302a9885ed5218f6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094020.m4a"
+        },
+        {
+          "openmhz_id": "69cdc92f302a9885ed525206",
+          "time_utc": "2026-04-02T01:40:50+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "336, can you break in for an on view at Mill and Eisenhower? I believe someone got hit by a car. Please start medics. I think we're receiving a call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc92f302a9885ed525206.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094050.m4a"
+        },
+        {
+          "openmhz_id": "69cdc93f302a9885ed5281d4",
+          "time_utc": "2026-04-02T01:40:58+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 205, Medic 205, EMS 201, operate onto Bravo, Fox, 20710, Pedestrian Struck, Mill Raise Lane, and Eisenhower Avenue. Engine 205, Medic 205, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_05/69cdc93f302a9885ed5281d4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775094058.m4a"
+        },
+        {
+          "openmhz_id": "69cdc96d302a9885ed52ebc7",
+          "time_utc": "2026-04-02T01:41:41+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 21,
+          "transcript": "Truck 205, Medic 209, Engine 201, EMS 403, operate onto Bravo, Fox, 205-12, Pedestrian's Truck, Mill Road, and Eisenhower Avenue. Truck 205, Medic 209, Engine 201, EMS 403.",
+          "flagged": true,
+          "local_path": "public/audio/incident_05/69cdc96d302a9885ed52ebc7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775094101.m4a"
+        },
+        {
+          "openmhz_id": "69cdc963302a9885ed52cdc0",
+          "time_utc": "2026-04-02T01:41:49+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "315, you can break and send me the mail in Heisenhauer.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc963302a9885ed52cdc0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094109.m4a"
+        },
+        {
+          "openmhz_id": "69cdc97f302a9885ed5320b3",
+          "time_utc": "2026-04-02T01:42:14+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "We have one male with legs, shoulder, chest, hand pain.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc97f302a9885ed5320b3.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094134.m4a"
+        },
+        {
+          "openmhz_id": "69cdc98d302a9885ed534cd7",
+          "time_utc": "2026-04-02T01:42:22+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 12,
+          "transcript": "EMS, correction, engine 201, truck 205, medic 209, you can go in service, duplicate call, 2142.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc98d302a9885ed534cd7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775094142.m4a"
+        },
+        {
+          "openmhz_id": "69cdc985302a9885ed533467",
+          "time_utc": "2026-04-02T01:42:24+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Okay, thank you for calling.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc985302a9885ed533467.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094144.m4a"
+        },
+        {
+          "openmhz_id": "69cdc99a302a9885ed536dd3",
+          "time_utc": "2026-04-02T01:42:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "We don't have anything showing here at this intersection. Okay, stand by as we call. We do have medics staging.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc99a302a9885ed536dd3.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094159.m4a"
+        },
+        {
+          "openmhz_id": "69cdc9cb302a9885ed540672",
+          "time_utc": "2026-04-02T01:43:30+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "You can just disregard my last. We are going to be in the inner loop by landmark.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc9cb302a9885ed540672.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094210.m4a"
+        },
+        {
+          "openmhz_id": "69cdc9d1302a9885ed5418cf",
+          "time_utc": "2026-04-02T01:43:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "Can I advise this subject to wear a red jacket?",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc9d1302a9885ed5418cf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094219.m4a"
+        },
+        {
+          "openmhz_id": "69cdc9da302a9885ed543826",
+          "time_utc": "2026-04-02T01:43:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "For more UN videos visit www.un.org",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc9da302a9885ed543826.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094228.m4a"
+        },
+        {
+          "openmhz_id": "69cdc9e6302a9885ed545aab",
+          "time_utc": "2026-04-02T01:43:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "Hold the air. Restricted traffic.",
+          "flagged": false,
+          "local_path": "public/audio/incident_05/69cdc9e6302a9885ed545aab.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775094239.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 9,
+      "start_time_utc": "2026-04-04T13:22:03+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d11090302a9885ed9c095c",
+          "time_utc": "2026-04-04T13:22:03+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 209, Medic 105, EMS 201, operate onto Bravo, Box, 20210, Pedestrian's Jock, Mount Vernon Avenue, and East Lurie Avenue. Engine 209, Medic 105, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_09/69d11090302a9885ed9c095c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775308923.m4a"
+        },
+        {
+          "openmhz_id": "69d110a1302a9885ed9c2f69",
+          "time_utc": "2026-04-04T13:22:22+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 16,
+          "transcript": "233, 233 alpha for the motor vehicle crash. Pedestrians struck Mount Vernon and East Luray, Mount Vernon and East Luray. Carlos hit by a Honda Accord, that's still on scene. Medics refused, so routine response.",
+          "flagged": true,
+          "local_path": "public/audio/incident_09/69d110a1302a9885ed9c2f69.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775308942.m4a"
+        },
+        {
+          "openmhz_id": "69d110a5302a9885ed9c3930",
+          "time_utc": "2026-04-04T13:22:32+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 10,
+          "transcript": "Engine 209, EMS 201. We're going to request a cancel. Please state that they don't need any services. You can place yourself in service.",
+          "flagged": false,
+          "local_path": "public/audio/incident_09/69d110a5302a9885ed9c3930.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775308952.m4a"
+        },
+        {
+          "openmhz_id": "69d110b3302a9885ed9c5149",
+          "time_utc": "2026-04-04T13:22:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "225, you can clear this call that 223 and I are on and send us both to that lab. Okay. 233, 233 Alpha, you're back in service.",
+          "flagged": false,
+          "local_path": "public/audio/incident_09/69d110b3302a9885ed9c5149.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775308962.m4a"
+        },
+        {
+          "openmhz_id": "69d110aa302a9885ed9c43b0",
+          "time_utc": "2026-04-04T13:22:45+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "2 and on radio.",
+          "flagged": false,
+          "local_path": "public/audio/incident_09/69d110aa302a9885ed9c43b0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775308965.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 11,
+      "start_time_utc": "2026-04-04T20:01:32+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d16e18302a9885ed791bb1",
+          "time_utc": "2026-04-04T20:01:23+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "Alzheimer's, talk to you in a bit.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16e18302a9885ed791bb1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775332883.m4a"
+        },
+        {
+          "openmhz_id": "69d16e1d302a9885ed792bea",
+          "time_utc": "2026-04-04T20:01:28+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "Truck to all firemen to Alpha.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16e1d302a9885ed792bea.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775332888.m4a"
+        },
+        {
+          "openmhz_id": "69d16e28302a9885ed794d19",
+          "time_utc": "2026-04-04T20:01:32+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 9,
+          "transcript": "Ken Mark is on the scene of a pedestrian struck at the intersection of Mount Vernon and East Braddock. Truck is not involved. We'll be out checking.",
+          "flagged": true,
+          "local_path": "public/audio/incident_11/69d16e28302a9885ed794d19.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775332892.m4a"
+        },
+        {
+          "openmhz_id": "69d16e2e302a9885ed795d94",
+          "time_utc": "2026-04-04T20:01:44+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "I was in jail right now.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16e2e302a9885ed795d94.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775332904.m4a"
+        },
+        {
+          "openmhz_id": "69d16eaa302a9885ed7a9b53",
+          "time_utc": "2026-04-04T20:03:36+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 14,
+          "transcript": "Engine 205, operate onto Bravo, Box 205-21, Pedestrian Strut, Mt. Vernon Avenue, and East Braddock Road. Engine 205.",
+          "flagged": true,
+          "local_path": "public/audio/incident_11/69d16eaa302a9885ed7a9b53.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775333016.m4a"
+        },
+        {
+          "openmhz_id": "69d16ec1302a9885ed7ad724",
+          "time_utc": "2026-04-04T20:04:09+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "315, can you please generate a report for this call? Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16ec1302a9885ed7ad724.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333049.m4a"
+        },
+        {
+          "openmhz_id": "69d16ec9302a9885ed7ae825",
+          "time_utc": "2026-04-04T20:04:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Headquarters, do you need a break for a pedestrian struck at Mount Vernon and East Braddock?",
+          "flagged": true,
+          "local_path": "public/audio/incident_11/69d16ec9302a9885ed7ae825.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333058.m4a"
+        },
+        {
+          "openmhz_id": "69d16eda302a9885ed7b1085",
+          "time_utc": "2026-04-04T20:04:36+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "235 out, I'm available.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16eda302a9885ed7b1085.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333076.m4a"
+        },
+        {
+          "openmhz_id": "69d16eea302a9885ed7b328f",
+          "time_utc": "2026-04-04T20:04:44+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Copy 235 Alpha unit to assist with the crash. Pedestrian struck Mount Vernon East Braddock. Information is still coming in. Priority response is authorized.",
+          "flagged": true,
+          "local_path": "public/audio/incident_11/69d16eea302a9885ed7b328f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333084.m4a"
+        },
+        {
+          "openmhz_id": "69d16f04302a9885ed7b8115",
+          "time_utc": "2026-04-04T20:05:07+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 14,
+          "transcript": "Medic 206, operate onto Bravo, Fox, 20521, Pedestrian Struck, Mt. Vernon Avenue, and East Braddock Road. Medic 206.",
+          "flagged": true,
+          "local_path": "public/audio/incident_11/69d16f04302a9885ed7b8115.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775333107.m4a"
+        },
+        {
+          "openmhz_id": "69d16f15302a9885ed7baaec",
+          "time_utc": "2026-04-04T20:05:33+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "314, is the air clear? It's clear.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f15302a9885ed7baaec.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333133.m4a"
+        },
+        {
+          "openmhz_id": "69d16f1b302a9885ed7bb473",
+          "time_utc": "2026-04-04T20:05:40+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "I'll give you a tag and an OL number.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f1b302a9885ed7bb473.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333140.m4a"
+        },
+        {
+          "openmhz_id": "69d16f35302a9885ed7c043e",
+          "time_utc": "2026-04-04T20:05:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 19,
+          "transcript": "Okay, go ahead. All right, it's going to be a Maryland tag for Echo X-ray 5959. Come back to a freedom of lead, a camper. Confirm the last four was 5959. That is affirmative.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f35302a9885ed7c043e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333148.m4a"
+        },
+        {
+          "openmhz_id": "69d16f40302a9885ed7c1d3b",
+          "time_utc": "2026-04-04T20:06:14+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "Okay, I'm getting a return for a RAM registered to a Charity Barrett, registration is expired.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f40302a9885ed7c1d3b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333174.m4a"
+        },
+        {
+          "openmhz_id": "69d16f48302a9885ed7c31b4",
+          "time_utc": "2026-04-04T20:06:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "A ram is in a Dodger.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f48302a9885ed7c31b4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333186.m4a"
+        },
+        {
+          "openmhz_id": "69d16f64302a9885ed7c71a4",
+          "time_utc": "2026-04-04T20:06:38+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 18,
+          "transcript": "Yes, the make says Ram, model is Crowmaster. Can I go with the Virginia OL? Go ahead with the OL. It's going to be Bravo 60080991. Come back to it, Mr. Zazulia.",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f64302a9885ed7c71a4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333198.m4a"
+        },
+        {
+          "openmhz_id": "69d16f70302a9885ed7c9ad6",
+          "time_utc": "2026-04-04T20:06:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "Copy, he's negative and licensed. I'm direct, thank you. Do you have a moment for another tag and OL?",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f70302a9885ed7c9ad6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333219.m4a"
+        },
+        {
+          "openmhz_id": "69d16f94302a9885ed7cf1e0",
+          "time_utc": "2026-04-04T20:07:11+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "Virginia tag uniform Charlie Foxtrot 4086. Come back to a white Volkswagen. Go for OL when you're ready. It's going to be Virginia OL Alpha 616-699-76. Come back to Ms. Hart. Copy. Did you want the return for those as well? Again? Did you want the return for those as well?",
+          "flagged": false,
+          "local_path": "public/audio/incident_11/69d16f94302a9885ed7cf1e0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775333231.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 14,
+      "start_time_utc": "2026-04-07T16:15:20+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d52daf302a9885ed9e2a30",
+          "time_utc": "2026-04-07T16:15:20+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 205, Paramedic Ambulance 842, EMS 201, operate onto Bravo, Fox, 201-30, Pedestrian Struck, South Royal Street, and Green Street. Engine 205, Paramedic Ambulance 842, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_14/69d52daf302a9885ed9e2a30.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775578520.m4a"
+        },
+        {
+          "openmhz_id": "69d52dca302a9885ed9e6b67",
+          "time_utc": "2026-04-07T16:16:00+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 6,
+          "transcript": "Alexander for medic 205, where is paramedic ambulance 842 coming from?",
+          "flagged": false,
+          "local_path": "public/audio/incident_14/69d52dca302a9885ed9e6b67.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775578560.m4a"
+        },
+        {
+          "openmhz_id": "69d52e53302a9885ed9fc470",
+          "time_utc": "2026-04-07T16:18:11+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 13,
+          "transcript": "Medic 205, operate onto Bravo, Box 201-30, Pedestrian Struck, South Royal Street, and Green Street. Medic 205.",
+          "flagged": true,
+          "local_path": "public/audio/incident_14/69d52e53302a9885ed9fc470.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775578691.m4a"
+        },
+        {
+          "openmhz_id": "69d52e79302a9885eda02199",
+          "time_utc": "2026-04-07T16:18:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "215, am I clear for a follow up?",
+          "flagged": false,
+          "local_path": "public/audio/incident_14/69d52e79302a9885eda02199.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775578739.m4a"
+        },
+        {
+          "openmhz_id": "69d52e80302a9885eda02f0f",
+          "time_utc": "2026-04-07T16:19:04+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "215 you are clear sir. Thank you.",
+          "flagged": false,
+          "local_path": "public/audio/incident_14/69d52e80302a9885eda02f0f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775578744.m4a"
+        },
+        {
+          "openmhz_id": "69d52ee7302a9885eda12213",
+          "time_utc": "2026-04-07T16:20:29+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 19,
+          "transcript": "Units 214, 224, crash 5 and 220 for the pedestrian struck South Royal and Green Street, South Royal and Green. Call came in to us from U.S. Park Police advising that they're out with a female that was struck by a vehicle. Priority response is authorized at 1220.",
+          "flagged": true,
+          "local_path": "public/audio/incident_14/69d52ee7302a9885eda12213.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775578829.m4a"
+        },
+        {
+          "openmhz_id": "69d52f04302a9885eda16f7f",
+          "time_utc": "2026-04-07T16:20:54+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 26,
+          "transcript": "Fire Departments also in route. 228 Park Police is out there, correct? Do you have medics going? Affirmative, to both. Okay. If there's already police units out there, we don't need to go to a priority of that. As long as you have medics going, you just keep 214 and Crash 5 on it. I'll also check in. I copy that. 224 available. Units respond routine, 1221.",
+          "flagged": false,
+          "local_path": "public/audio/incident_14/69d52f04302a9885eda16f7f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775578854.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 15,
+      "start_time_utc": "2026-04-07T19:22:15+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d55944302a9885ed1079f0",
+          "time_utc": "2026-04-07T19:21:09+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "Headquarters tell all units for a BOLO special attention west end, received a call in reference to juveniles that were seen fighting on a red commuter Fairfax County, bus number 24, it was last seen in the area of Beatley Library at 5005 Duke Street, unknown if it was heading eastbound or westbound on Duke at 1521.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55944302a9885ed1079f0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589669.m4a"
+        },
+        {
+          "openmhz_id": "69d5597e302a9885ed110ef6",
+          "time_utc": "2026-04-07T19:22:15+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 15,
+          "transcript": "333 333 Can you start a call for a pedestrian struck at the intersection of North Van Dorn",
+          "flagged": true,
+          "local_path": "public/audio/incident_15/69d5597e302a9885ed110ef6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589735.m4a"
+        },
+        {
+          "openmhz_id": "69d559ae302a9885ed119e97",
+          "time_utc": "2026-04-07T19:22:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 34,
+          "transcript": "333 start crash. We got somebody going in finger Avenue. Copy pedestrian. Crash. I copied next North and or and finger Avenue 321 and 323. If you can have that way for me for that pedestrian struck party responses to authorize party on the West and you can send me that copy 215 be advised fire is also in round at this time. 333 we're going to have a female stuck under the car. I copy one female patient trapped under the vehicle.",
+          "flagged": true,
+          "local_path": "public/audio/incident_15/69d559ae302a9885ed119e97.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589759.m4a"
+        },
+        {
+          "openmhz_id": "69d559a2302a9885ed11812b",
+          "time_utc": "2026-04-07T19:22:52+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 206, Medic 208, EMS 201, operate onto Bravo, Box 208-66, Pedestrian Strut, Sanger Avenue, and North Van Dorn Street. Engine 206, Medic 208, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_15/69d559a2302a9885ed11812b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775589772.m4a"
+        },
+        {
+          "openmhz_id": "69d559cf302a9885ed11fadc",
+          "time_utc": "2026-04-07T19:23:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 22,
+          "transcript": "234 send me your list. 10, you can add me. Unit 10, I'm direct. 315, we got the individual out of the car. Headquarters, direct. 333, start medics. Screen female, approximately 40 years old. Possible injury to foot. Foot. She's cold. Copy. Medic 208, injured 206 in the EMS. 201 are en route to that location.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d559cf302a9885ed11fadc.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589806.m4a"
+        },
+        {
+          "openmhz_id": "69d559ed302a9885ed124fc6",
+          "time_utc": "2026-04-07T19:24:01+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 19,
+          "transcript": "Unit 10 to 333. Yes, sir. Another unit marked up said they got the patient out of the vehicle. Just confirming, there's nobody stuck under the vehicle still? Correct. They pulled her underneath the vehicle, so she's not under the vehicle anymore. Got it. Unit 10, you can hold me available and start supervising, please. Headquarters direct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d559ed302a9885ed124fc6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589841.m4a"
+        },
+        {
+          "openmhz_id": "69d559f4302a9885ed1265d5",
+          "time_utc": "2026-04-07T19:24:28+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "I'm heading that way. I copy, sir.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d559f4302a9885ed1265d5.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589868.m4a"
+        },
+        {
+          "openmhz_id": "69d55a32302a9885ed1325da",
+          "time_utc": "2026-04-07T19:25:15+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 16,
+          "transcript": "333 copy that. 333 go ahead. Virginia Place, Tango, Julia, Bravo, 8511 should return to a Chrysler. Roger that.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55a32302a9885ed1325da.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589915.m4a"
+        },
+        {
+          "openmhz_id": "69d55a4c302a9885ed136af0",
+          "time_utc": "2026-04-07T19:25:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "Crash finds any of the units on scene at the patch truck. Go ahead. Is the person conscious and breathing or is this going to be something that crash is going to be needed for? Conscious and breathing. Correct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55a4c302a9885ed136af0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589942.m4a"
+        },
+        {
+          "openmhz_id": "69d55a68302a9885ed13bfe0",
+          "time_utc": "2026-04-07T19:26:14+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "215 to the next unit that's going to show up. Can you come on Van Dorn, block the westbound traffic, or westbound turn lane onto Sanger. And if I can get another... Stand by for the next call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55a68302a9885ed13bfe0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775589974.m4a"
+        },
+        {
+          "openmhz_id": "69d55a94302a9885ed14314b",
+          "time_utc": "2026-04-07T19:26:55+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "215, we're going to need at least one more unit out here. Headquarters direct. Headquarters for an additional unit to break to respond to Zanger and North Van Dorn. Copy 314.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55a94302a9885ed14314b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590015.m4a"
+        },
+        {
+          "openmhz_id": "69d55a9b302a9885ed14440e",
+          "time_utc": "2026-04-07T19:27:19+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Hey,",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55a9b302a9885ed14440e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590039.m4a"
+        },
+        {
+          "openmhz_id": "69d55aa2302a9885ed145878",
+          "time_utc": "2026-04-07T19:27:23+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "332, can you time Champezio?",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55aa2302a9885ed145878.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590043.m4a"
+        },
+        {
+          "openmhz_id": "69d55aa7302a9885ed146483",
+          "time_utc": "2026-04-07T19:27:31+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Andre",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55aa7302a9885ed146483.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590051.m4a"
+        },
+        {
+          "openmhz_id": "69d55aab302a9885ed146fe7",
+          "time_utc": "2026-04-07T19:27:34+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "At 1527.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55aab302a9885ed146fe7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590054.m4a"
+        },
+        {
+          "openmhz_id": "69d55ab6302a9885ed1488c1",
+          "time_utc": "2026-04-07T19:27:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "234, you can hand me to the pedestrian truck. Okay.",
+          "flagged": true,
+          "local_path": "public/audio/incident_15/69d55ab6302a9885ed1488c1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590062.m4a"
+        },
+        {
+          "openmhz_id": "69d55ac0302a9885ed149eaf",
+          "time_utc": "2026-04-07T19:27:56+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "333",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55ac0302a9885ed149eaf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590076.m4a"
+        },
+        {
+          "openmhz_id": "69d55ac9302a9885ed14b814",
+          "time_utc": "2026-04-07T19:28:00+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "Can I get a person to check Virginia driver's license already?",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55ac9302a9885ed14b814.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590080.m4a"
+        },
+        {
+          "openmhz_id": "69d55ad9302a9885ed14e6c8",
+          "time_utc": "2026-04-07T19:28:09+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "I'm ready. Go ahead ma'am. Bravo two three eight one two one eight six should return to last name Brewer Blackmail. I'm done.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55ad9302a9885ed14e6c8.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590089.m4a"
+        },
+        {
+          "openmhz_id": "69d55af4302a9885ed153359",
+          "time_utc": "2026-04-07T19:28:49+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Dispatchers assign units to calls and give addresses.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55af4302a9885ed153359.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590129.m4a"
+        },
+        {
+          "openmhz_id": "69d55b06302a9885ed156610",
+          "time_utc": "2026-04-07T19:28:52+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "The well is negative to Franklin Louis Brewer, 5 Herbert Street here in the city. He is licensed.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55b06302a9885ed156610.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590132.m4a"
+        },
+        {
+          "openmhz_id": "69d55b2a302a9885ed15ceb7",
+          "time_utc": "2026-04-07T19:29:41+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "I'll get to Mack and Wayne where you need me.",
+          "flagged": false,
+          "local_path": "public/audio/incident_15/69d55b2a302a9885ed15ceb7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775590181.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 21,
+      "start_time_utc": "2026-04-08T01:17:42+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d5ac54302a9885edfcd0ee",
+          "time_utc": "2026-04-08T01:15:58+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Are you voicing on mute?",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac54302a9885edfcd0ee.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775610958.m4a"
+        },
+        {
+          "openmhz_id": "69d5ac69302a9885edfd03b7",
+          "time_utc": "2026-04-08T01:16:03+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "And we're going to be on 495 eastbound at the telegraph. Trooper is hit by a vehicle. Show me the system. Command, start medics.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac69302a9885edfd03b7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775610963.m4a"
+        },
+        {
+          "openmhz_id": "69d5ac71302a9885edfd1d73",
+          "time_utc": "2026-04-08T01:16:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "We already have a call in. Looks like rescue's en route.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac71302a9885edfd1d73.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775610986.m4a"
+        },
+        {
+          "openmhz_id": "69d5ac88302a9885edfd5b93",
+          "time_utc": "2026-04-08T01:16:32+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 21,
+          "transcript": "Medic 205, Engine 205, operate on 4 Delta, Box 405-64, Motor Vehicle Crash, I-95 Northbound at Telegraph Road, Cross Street Telegraph Road, and Telegraph Road Northbound ramp to I-95 Northbound. Medic 205, Engine 205.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac88302a9885edfd5b93.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775610992.m4a"
+        },
+        {
+          "openmhz_id": "69d5ac7c302a9885edfd3aee",
+          "time_utc": "2026-04-08T01:16:40+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "314",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac7c302a9885edfd3aee.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611000.m4a"
+        },
+        {
+          "openmhz_id": "69d5ac8d302a9885edfd6dba",
+          "time_utc": "2026-04-08T01:16:50+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "310 to 314, do you hear me supervisor? Negative, it's just a medical call, it looks like.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ac8d302a9885edfd6dba.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611010.m4a"
+        },
+        {
+          "openmhz_id": "69d5acaf302a9885edfdc561",
+          "time_utc": "2026-04-08T01:17:04+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 26,
+          "transcript": "Lieutenant 314, did the vehicle stop? Vehicle stopped. State police are requesting more units. Appears it's a pursuit related. There's a suspect bailout. Virginia State Police Dispatch is going to be putting a lookout. They're requesting units on the westbound side of 495.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acaf302a9885edfdc561.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611024.m4a"
+        },
+        {
+          "openmhz_id": "69d5acbb302a9885edfde2bf",
+          "time_utc": "2026-04-08T01:17:35+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "Can you start a supervisor and two or three additional officers to help circulate the area as well as a K-9? 333, you can add us.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acbb302a9885edfde2bf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611055.m4a"
+        },
+        {
+          "openmhz_id": "69d5acb6302a9885edfdd537",
+          "time_utc": "2026-04-08T01:17:36+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 3,
+          "transcript": "For more UN videos visit www.un.org",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acb6302a9885edfdd537.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775611056.m4a"
+        },
+        {
+          "openmhz_id": "69d5acd8302a9885edfe4546",
+          "time_utc": "2026-04-08T01:17:42+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 30,
+          "transcript": "Engine 207, Medic 208, EMS 202, operate on to Bravo, Fox, 20710, Pedestrian's Jock, Eisenhower Avenue, and Stockwell Street. Engine 207, Medic 208, EMS 202. Engine 207, EMS 202, and Medic 208, there's already a call for service. Again, Engine 207, EMS 202, and Medic 208, units can go back in service, 2118.",
+          "flagged": true,
+          "local_path": "public/audio/incident_21/69d5acd8302a9885edfe4546.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775611062.m4a"
+        },
+        {
+          "openmhz_id": "69d5acc0302a9885edfdf39b",
+          "time_utc": "2026-04-08T01:17:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "3-5-4-0",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acc0302a9885edfdf39b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611068.m4a"
+        },
+        {
+          "openmhz_id": "69d5acca302a9885edfe12c9",
+          "time_utc": "2026-04-08T01:17:56+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "330, I'm going to run it to your left.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acca302a9885edfe12c9.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611076.m4a"
+        },
+        {
+          "openmhz_id": "69d5acd9302a9885edfe467a",
+          "time_utc": "2026-04-08T01:18:01+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "It's going to be a blackmail, black clothing with dress. He took the Eisenhower ramp, ran towards the city, towards Holiday Inn. So if we have a canine as well.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5acd9302a9885edfe467a.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611081.m4a"
+        },
+        {
+          "openmhz_id": "69d5ad06302a9885edfedae7",
+          "time_utc": "2026-04-08T01:18:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 35,
+          "transcript": "Dispatchers assign units to calls and give addresses. Dispatchers assign units to calls and give addresses.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ad06302a9885edfedae7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611098.m4a"
+        },
+        {
+          "openmhz_id": "69d5ad45302a9885edffa3c9",
+          "time_utc": "2026-04-08T01:19:02+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 46,
+          "transcript": "In the 314. Go ahead. The trooper that was hit, was he struck because of the vehicle they were pursuing? Standby, I don't have that info. Headquarters, can you try and ascertain what charges they meant to be working with? Copy. Headquarters to 314, do you read me? They were in pursuit of the vehicle, there was a bailout, and the trooper was chasing after the suspect. A civilian vehicle struck the trooper. I'm direct. Unit 10, you can add me, and add some additional units as well, please. 315, you can break me and add me. 310 to Headquarters, can you also notify Fairfax for the Southside of 495, please, to help with our coroner? The call is going to be Fairfax's, they should be already aware.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ad45302a9885edffa3c9.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611142.m4a"
+        },
+        {
+          "openmhz_id": "69d5ad4f302a9885edffbe90",
+          "time_utc": "2026-04-08T01:20:08+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "310, they've already requested Fairfax 1.",
+          "flagged": false,
+          "local_path": "public/audio/incident_21/69d5ad4f302a9885edffbe90.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775611208.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 25,
+      "start_time_utc": "2026-04-09T00:15:55+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d6efd1302a9885edfc58b8",
+          "time_utc": "2026-04-09T00:15:55+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 206, Medic 208, EMS 202, operate onto Bravo, Box 206-04, Pedestrian's Truck, Seminary Road, and Marksider Avenue. Engine 206, Medic 208, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_25/69d6efd1302a9885edfc58b8.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775693755.m4a"
+        },
+        {
+          "openmhz_id": "69d6effb302a9885edfccf74",
+          "time_utc": "2026-04-09T00:16:44+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Headquarters any units a break for the MVC. Pit, Pedestrian, Strux, Seminary, and Mock Center. Seminary and Mock Center, priority responses authorized at 20-16 hours.",
+          "flagged": true,
+          "local_path": "public/audio/incident_25/69d6effb302a9885edfccf74.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775693804.m4a"
+        },
+        {
+          "openmhz_id": "69d6f018302a9885edfd2d22",
+          "time_utc": "2026-04-09T00:17:19+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "311 to 315, they're advising that you guys can go in service if need be.",
+          "flagged": false,
+          "local_path": "public/audio/incident_25/69d6f018302a9885edfd2d22.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775693839.m4a"
+        },
+        {
+          "openmhz_id": "69d6f044302a9885edfdaa22",
+          "time_utc": "2026-04-09T00:17:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "32, Romeo 1, you can have me for pedestrian strip. 33, November 1, you can respond as well. I'm direct. It's going to be Seminary and Marks Center Drive, excuse me, Seminary and Marks Center Avenue. Priority response is authorized at 20, 17 hours. It's going to be for a female that was breathing. She was on a scooter hit by a vehicle, possibly 20s. It's going to be hit by a silver Honda sedan. Say that the male is trying to leave.",
+          "flagged": true,
+          "local_path": "public/audio/incident_25/69d6f044302a9885edfdaa22.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775693862.m4a"
+        },
+        {
+          "openmhz_id": "69d6f04c302a9885edfdc497",
+          "time_utc": "2026-04-09T00:18:13+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "You can have a chat as well. You're right.",
+          "flagged": false,
+          "local_path": "public/audio/incident_25/69d6f04c302a9885edfdc497.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775693893.m4a"
+        },
+        {
+          "openmhz_id": "69d6f0ba302a9885edff1fee",
+          "time_utc": "2026-04-09T00:20:00+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "Equal to any units that break for the destruction of property 5740 Draycourt 5740 Draycourt apartment 171.",
+          "flagged": false,
+          "local_path": "public/audio/incident_25/69d6f0ba302a9885edff1fee.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775694000.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 26,
+      "start_time_utc": "2026-04-09T18:42:47+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69d7f2e87d3c667f1df60fd0",
+          "time_utc": "2026-04-09T18:41:32+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "224. 224. Is there any suite number associated with this phone number?",
+          "flagged": false,
+          "local_path": "public/audio/incident_26/69d7f2e87d3c667f1df60fd0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775760092.m4a"
+        },
+        {
+          "openmhz_id": "69d7f2e37d3c667f1df6056e",
+          "time_utc": "2026-04-09T18:41:33+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 3,
+          "transcript": "For more UN videos visit www.un.org",
+          "flagged": false,
+          "local_path": "public/audio/incident_26/69d7f2e37d3c667f1df6056e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775760093.m4a"
+        },
+        {
+          "openmhz_id": "69d7f2f87d3c667f1df63e09",
+          "time_utc": "2026-04-09T18:41:47+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Negative. Only information that came over on Annie Alley was a business name of Monarch Row, LLC. Monarch Row.",
+          "flagged": false,
+          "local_path": "public/audio/incident_26/69d7f2f87d3c667f1df63e09.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775760107.m4a"
+        },
+        {
+          "openmhz_id": "69d7f3457d3c667f1df71fa2",
+          "time_utc": "2026-04-09T18:42:47+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "Units 233 and 232 for the MVC hit-and-run, no injury, pedestrian struck, 4368 King Street, 4368 King Street. Callers stating they were on foot and struck by a vehicle. Described it as a red sedan, minutes have been refused so far. There are cameras on scene at the gas station. Driver of the red sedan was a female driver, 1443.",
+          "flagged": true,
+          "local_path": "public/audio/incident_26/69d7f3457d3c667f1df71fa2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775760167.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 31,
+      "start_time_utc": "2026-04-11T23:22:08+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69dad7597d3c667f1dd137c9",
+          "time_utc": "2026-04-11T23:20:37+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "312. 312. The tag he provided comes back to a Tesla, not a Mazda. If he's in a rush, he can file an online report. Otherwise, I'll probably be there in about 15-20 minutes. Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7597d3c667f1dd137c9.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949637.m4a"
+        },
+        {
+          "openmhz_id": "69dad76c7d3c667f1dd182c6",
+          "time_utc": "2026-04-11T23:21:04+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 9,
+          "transcript": "C-31 Charlie and C-36H for the traffic direction, 264 Gretna Green Court, 264 Gretna Green Court, fires on scene with a work of fire.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad76c7d3c667f1dd182c6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949664.m4a"
+        },
+        {
+          "openmhz_id": "69dad7717d3c667f1dd1954f",
+          "time_utc": "2026-04-11T23:21:11+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 7,
+          "transcript": "How's it going, this is unit 205. Start a medic unit for a patient in the road.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7717d3c667f1dd1954f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949671.m4a"
+        },
+        {
+          "openmhz_id": "69dad7767d3c667f1dd1a6ad",
+          "time_utc": "2026-04-11T23:21:20+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "Taken in Valley Forge.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7767d3c667f1dd1a6ad.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949680.m4a"
+        },
+        {
+          "openmhz_id": "69dad78b7d3c667f1dd2030d",
+          "time_utc": "2026-04-11T23:21:26+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 18,
+          "transcript": "Medic 105, Rescue 209, operate onto Bravo, Box 209-01, Abdominal Pain 2620, Mainline Blvd, Cross St. McTardy Square. Medic 105, Rescue 209.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad78b7d3c667f1dd2030d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949686.m4a"
+        },
+        {
+          "openmhz_id": "69dad7947d3c667f1dd223f6",
+          "time_utc": "2026-04-11T23:21:51+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 3,
+          "transcript": "Engine 205 from Alexander on 2-Alpha.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7947d3c667f1dd223f6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949711.m4a"
+        },
+        {
+          "openmhz_id": "69dad79a7d3c667f1dd24014",
+          "time_utc": "2026-04-11T23:21:57+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 1,
+          "transcript": "Ready to go.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad79a7d3c667f1dd24014.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949717.m4a"
+        },
+        {
+          "openmhz_id": "69dad7a07d3c667f1dd2593f",
+          "time_utc": "2026-04-11T23:22:02+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 4,
+          "transcript": "You're requesting a medic to grant a green card?",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7a07d3c667f1dd2593f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949722.m4a"
+        },
+        {
+          "openmhz_id": "69dad7a57d3c667f1dd27350",
+          "time_utc": "2026-04-11T23:22:08+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "Affirmative, pedestrians go.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad7a57d3c667f1dd27350.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949728.m4a"
+        },
+        {
+          "openmhz_id": "69dad7b67d3c667f1dd2b4d0",
+          "time_utc": "2026-04-11T23:22:14+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 13,
+          "transcript": "We're heading to the we're heading to the box alarm in car tried to get out of our way and hit a pedestrian in the street at Valley Forge in South Pickett. He's laying in the street.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad7b67d3c667f1dd2b4d0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949734.m4a"
+        },
+        {
+          "openmhz_id": "69dad7be7d3c667f1dd2d9d2",
+          "time_utc": "2026-04-11T23:22:33+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 3,
+          "transcript": "Copy, starting a call, you've been switched to Delta 19-22.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad7be7d3c667f1dd2d9d2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949753.m4a"
+        },
+        {
+          "openmhz_id": "69dad8017d3c667f1dd3ef47",
+          "time_utc": "2026-04-11T23:23:13+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 27,
+          "transcript": "Alexander for Engine 205. Remove us from the box. We're going to be with this patient that's in the road. Copy Engine 205. Engine 405, Medic 405, EMS 201. Operate onto Bravo, Box 208-73, Pedestrian Struck, Valley Forge Drive, and South Thicket Street. Engine 405, Medic 405, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad8017d3c667f1dd3ef47.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949793.m4a"
+        },
+        {
+          "openmhz_id": "69dad83c7d3c667f1dd4e88d",
+          "time_utc": "2026-04-11T23:24:25+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 16,
+          "transcript": "Engine 206, operating on 2 Delta, Fox 208-73, Residential Building Fire 264, Retna Greenport, Cross Street Valley Forge Drive, Engine 206.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad83c7d3c667f1dd4e88d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775949865.m4a"
+        },
+        {
+          "openmhz_id": "69dad89d7d3c667f1dd6a085",
+          "time_utc": "2026-04-11T23:26:16+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "333",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad89d7d3c667f1dd6a085.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949976.m4a"
+        },
+        {
+          "openmhz_id": "69dad8a27d3c667f1dd6b500",
+          "time_utc": "2026-04-11T23:26:23+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "3-2-3",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad8a27d3c667f1dd6b500.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949983.m4a"
+        },
+        {
+          "openmhz_id": "69dad8a87d3c667f1dd6cdb2",
+          "time_utc": "2026-04-11T23:26:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "You can disregard, you already have a call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad8a87d3c667f1dd6cdb2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949986.m4a"
+        },
+        {
+          "openmhz_id": "69dad8ba7d3c667f1dd71515",
+          "time_utc": "2026-04-11T23:26:34+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "333, that assist fire is going to be a pedestrian struck. We're going to need another unit there, but medics are already on scene.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad8ba7d3c667f1dd71515.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775949994.m4a"
+        },
+        {
+          "openmhz_id": "69dad8c67d3c667f1dd74090",
+          "time_utc": "2026-04-11T23:26:56+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "312 to 333",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad8c67d3c667f1dd74090.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950016.m4a"
+        },
+        {
+          "openmhz_id": "69dad8e37d3c667f1dd7b729",
+          "time_utc": "2026-04-11T23:27:02+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 17,
+          "transcript": "Do you think it's going to be a crash thing? It's not going to be critical, but yeah, it probably will be something along those lines. Okay, should I reassign this call and hit deal? Yes, please. Great, then I'll be the last.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad8e37d3c667f1dd7b729.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950022.m4a"
+        },
+        {
+          "openmhz_id": "69dad8ef7d3c667f1dd7ec9c",
+          "time_utc": "2026-04-11T23:27:31+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "312, can you have me to the traffic direction and just confirm routine response? Routine response.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad8ef7d3c667f1dd7ec9c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950051.m4a"
+        },
+        {
+          "openmhz_id": "69dad93a7d3c667f1dd9222d",
+          "time_utc": "2026-04-11T23:28:51+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "310, that's what, that was accidental. You can discharge. 330, turn around.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad93a7d3c667f1dd9222d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950131.m4a"
+        },
+        {
+          "openmhz_id": "69dad9607d3c667f1dd9afc4",
+          "time_utc": "2026-04-11T23:29:00+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 24,
+          "transcript": "335? 335. 312. Stand by 1, 335, go ahead. I'm sorry, I thought you were calling me. Negative, 312, go ahead. As you'd be advised, the prior call that I was on, I did some research and he doesn't have a suspect. Because he got the wrong tag. So if you want to try to urge him to do an online report, that'd be better for him. We have a call tagger, send someone to contact me.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad9607d3c667f1dd9afc4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950140.m4a"
+        },
+        {
+          "openmhz_id": "69dad97c7d3c667f1dda3318",
+          "time_utc": "2026-04-11T23:29:44+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 13,
+          "transcript": "333 Can you take us off this current call and put us back on the traffic direction? We're going to need another unit for the pedestrians. 332, I'm en route.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad97c7d3c667f1dda3318.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950184.m4a"
+        },
+        {
+          "openmhz_id": "69dad99b7d3c667f1ddabfdf",
+          "time_utc": "2026-04-11T23:30:17+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 15,
+          "transcript": "Engine 405, operate onto Bravo, Fox, 20873, Fire Alarm, 5280, Duke St, Cross St, North Taxon St, Engine 405.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad99b7d3c667f1ddabfdf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1775950217.m4a"
+        },
+        {
+          "openmhz_id": "69dad9957d3c667f1ddaa2f4",
+          "time_utc": "2026-04-11T23:30:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Dispatchers assign units to calls and give addresses.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad9957d3c667f1ddaa2f4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950226.m4a"
+        },
+        {
+          "openmhz_id": "69dad99b7d3c667f1ddabf75",
+          "time_utc": "2026-04-11T23:30:29+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "312 confirm you're responding for the pedestrian struck.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad99b7d3c667f1ddabf75.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950229.m4a"
+        },
+        {
+          "openmhz_id": "69dad9a67d3c667f1ddaf62a",
+          "time_utc": "2026-04-11T23:30:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Hangar to the 312.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad9a67d3c667f1ddaf62a.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950242.m4a"
+        },
+        {
+          "openmhz_id": "69dad9af7d3c667f1ddb1ad3",
+          "time_utc": "2026-04-11T23:30:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "Yeah, I'm going to rush to the pedestrian.",
+          "flagged": true,
+          "local_path": "public/audio/incident_31/69dad9af7d3c667f1ddb1ad3.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950248.m4a"
+        },
+        {
+          "openmhz_id": "69dad9ef7d3c667f1ddc25f0",
+          "time_utc": "2026-04-11T23:31:54+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "3032, copy your tag.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad9ef7d3c667f1ddc25f0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950314.m4a"
+        },
+        {
+          "openmhz_id": "69dad9fe7d3c667f1ddc6575",
+          "time_utc": "2026-04-11T23:32:01+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 10,
+          "transcript": "It's going to be a Virginia tag, Victor Zulu Hotel 3444, coming back to a Ford Edge, silver in color.",
+          "flagged": false,
+          "local_path": "public/audio/incident_31/69dad9fe7d3c667f1ddc6575.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775950321.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 32,
+      "start_time_utc": "2026-04-12T01:07:31+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69daf0497d3c667f1d4d3692",
+          "time_utc": "2026-04-12T01:06:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 20,
+          "transcript": "We located the broken fence where all the cruisers are parked, Duke Street and Tucker Street. We're entering the site on foot now.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0497d3c667f1d4d3692.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956008.m4a"
+        },
+        {
+          "openmhz_id": "69daf0697d3c667f1d4dd1cb",
+          "time_utc": "2026-04-12T01:07:31+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 17,
+          "transcript": "X-ray 908. 908. Can you start a unit reference accident, hit and run, a pedestrian was struck on the street. Um, that's still raw right before mail.",
+          "flagged": true,
+          "local_path": "public/audio/incident_32/69daf0697d3c667f1d4dd1cb.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956051.m4a"
+        },
+        {
+          "openmhz_id": "69daf0747d3c667f1d4e001e",
+          "time_utc": "2026-04-12T01:08:01+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 0,
+          "transcript": "hey",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0747d3c667f1d4e001e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956081.m4a"
+        },
+        {
+          "openmhz_id": "69daf08b7d3c667f1d4e5bd0",
+          "time_utc": "2026-04-12T01:08:20+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Hey everyone, can you please lay a corner on the scene?",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf08b7d3c667f1d4e5bd0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956100.m4a"
+        },
+        {
+          "openmhz_id": "69daf09c7d3c667f1d4ea57a",
+          "time_utc": "2026-04-12T01:08:29+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Do you need units priority? Negative. He's conscious. He's refusing medics at this point. He was on a scooter when he got hit.",
+          "flagged": true,
+          "local_path": "public/audio/incident_32/69daf09c7d3c667f1d4ea57a.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956109.m4a"
+        },
+        {
+          "openmhz_id": "69daf0ae7d3c667f1d4eff81",
+          "time_utc": "2026-04-12T01:08:57+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "Neckar is any old town unit able to advise.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0ae7d3c667f1d4eff81.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956137.m4a"
+        },
+        {
+          "openmhz_id": "69daf0be7d3c667f1d4f473d",
+          "time_utc": "2026-04-12T01:09:12+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "311 Kilo Eye Cadet, over.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0be7d3c667f1d4f473d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956152.m4a"
+        },
+        {
+          "openmhz_id": "69daf0cb7d3c667f1d4f7e43",
+          "time_utc": "2026-04-12T01:09:23+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "Unit 23, I got the U-Haul over here. It's closer to Duke and 395.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0cb7d3c667f1d4f7e43.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956163.m4a"
+        },
+        {
+          "openmhz_id": "69daf0d87d3c667f1d4fb41a",
+          "time_utc": "2026-04-12T01:09:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "China K-9, can you start towards 6,000, we'll do...",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0d87d3c667f1d4fb41a.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956179.m4a"
+        },
+        {
+          "openmhz_id": "69daf0dd7d3c667f1d4fd09b",
+          "time_utc": "2026-04-12T01:09:45+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Yeah.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0dd7d3c667f1d4fd09b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956185.m4a"
+        },
+        {
+          "openmhz_id": "69daf0e27d3c667f1d4fe915",
+          "time_utc": "2026-04-12T01:09:49+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "That's 31 Kilo one.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0e27d3c667f1d4fe915.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956189.m4a"
+        },
+        {
+          "openmhz_id": "69daf0ff7d3c667f1d5075f7",
+          "time_utc": "2026-04-12T01:10:08+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "I got two individuals here on the second floor, the construction site closest to 395. Both are wearing reflective vests, so throwing stuff down from the second story down to the first story.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf0ff7d3c667f1d5075f7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956208.m4a"
+        },
+        {
+          "openmhz_id": "69daf1217d3c667f1d511168",
+          "time_utc": "2026-04-12T01:10:25+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 22,
+          "transcript": "It's going to keep eyes on them. Let's start putting a perimeter up on them here. And start additional units priority. Give them a bit of care of the air to set up a perimeter, please. 322 and 324 is going to have me for the 311 Gilo, sir. We're all, stay right where you are, Cody. You can go in there and just kind of make your way through the site so you can get on the other side of them.",
+          "flagged": false,
+          "local_path": "public/audio/incident_32/69daf1217d3c667f1d511168.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1775956225.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 36,
+      "start_time_utc": "2026-04-14T13:32:37+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69de41d47d3c667f1d455cfe",
+          "time_utc": "2026-04-14T13:31:40+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 203, medic 424, operate onto Bravo, Box 209-01, seizure 2620, Mainline Blvd, Apartment 322, Cross St. McCarty Square. Engine 203, medic 424.",
+          "flagged": false,
+          "local_path": "public/audio/incident_36/69de41d47d3c667f1d455cfe.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776173500.m4a"
+        },
+        {
+          "openmhz_id": "69de42127d3c667f1d469c18",
+          "time_utc": "2026-04-14T13:32:37+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 22,
+          "transcript": "213 at the back for the hit and run pedestrian struck 906 Wolf, 906 Wolf for a pedestrian that was struck by a vehicle. Unknown description of vehicle. Pedestrians refusing to give any further. Medics are also around. Priority response is authorized. Copy. Thank you.",
+          "flagged": true,
+          "local_path": "public/audio/incident_36/69de42127d3c667f1d469c18.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776173557.m4a"
+        },
+        {
+          "openmhz_id": "69de42827d3c667f1d491a1b",
+          "time_utc": "2026-04-14T13:34:39+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 17,
+          "transcript": "Medic 206, operate on 2 Bravo, Fox 209-01, Caesar 2620, Mainline Blvd, Apartment 322, Cross St. McCarty Square. Medic 206.",
+          "flagged": false,
+          "local_path": "public/audio/incident_36/69de42827d3c667f1d491a1b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776173679.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 40,
+      "start_time_utc": "2026-04-15T22:05:30+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e00b43d7432e855c68f8fd",
+          "time_utc": "2026-04-15T22:03:33+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "Dispatchers call to me, add myself and 335 to the domestic on Green Street.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b43d7432e855c68f8fd.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290613.m4a"
+        },
+        {
+          "openmhz_id": "69e00b4cd7432e855c691d46",
+          "time_utc": "2026-04-15T22:03:45+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b4cd7432e855c691d46.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290625.m4a"
+        },
+        {
+          "openmhz_id": "69e00b54d7432e855c693e27",
+          "time_utc": "2026-04-15T22:03:51+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "464, can I get a person to check my name and get it ready?",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b54d7432e855c693e27.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290631.m4a"
+        },
+        {
+          "openmhz_id": "69e00b66d7432e855c699848",
+          "time_utc": "2026-04-15T22:03:58+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "Last name Mike, India, Tango, Charlie, Hotel, Echo, Lima, Lima. First name is Mike, Alpha, Lima, Charlie, Oscar, Lima, Mike. Date of birth 6-10-1987 on a black male. Here I'm at DC police.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b66d7432e855c699848.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290638.m4a"
+        },
+        {
+          "openmhz_id": "69e00b6dd7432e855c69b795",
+          "time_utc": "2026-04-15T22:04:23+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b6dd7432e855c69b795.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290663.m4a"
+        },
+        {
+          "openmhz_id": "69e00b9cd7432e855c6a7d04",
+          "time_utc": "2026-04-15T22:05:06+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "315",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00b9cd7432e855c6a7d04.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290706.m4a"
+        },
+        {
+          "openmhz_id": "69e00ba7d7432e855c6ab762",
+          "time_utc": "2026-04-15T22:05:13+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "Your subject last name Ordonez Canales is showing licensed and negative.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00ba7d7432e855c6ab762.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290713.m4a"
+        },
+        {
+          "openmhz_id": "69e00bc4d7432e855c6b44e1",
+          "time_utc": "2026-04-15T22:05:30+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 20,
+          "transcript": "Engine 208, Medic 409, EMS 202, operate onto Bravo, Box 208-65, Pedestrian Struck 5750, Sanger Avenue, Cross Street Derby Court, Engine 208, Medic 409, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_40/69e00bc4d7432e855c6b44e1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776290730.m4a"
+        },
+        {
+          "openmhz_id": "69e00bc3d7432e855c6b4436",
+          "time_utc": "2026-04-15T22:05:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "Unit 25. Unit 25. You start fire back to this call for a wash down. Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00bc3d7432e855c6b4436.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290739.m4a"
+        },
+        {
+          "openmhz_id": "69e00be8d7432e855c6c0150",
+          "time_utc": "2026-04-15T22:05:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "332-32-November-1, 32-November-2 for the pedestrian struck 5750 Sanger Avenue, 5750 Sanger Avenue. Priority response is authorized, 1806. You're responding for a 7-year-old male that was hit by a gray vehicle, Virginia tag, uniform echo alpha 4442. We do have fire enroute as well.",
+          "flagged": true,
+          "local_path": "public/audio/incident_40/69e00be8d7432e855c6c0150.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290759.m4a"
+        },
+        {
+          "openmhz_id": "69e00bfad7432e855c6c5802",
+          "time_utc": "2026-04-15T22:06:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "335, you can break and add me to that. Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00bfad7432e855c6c5802.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290799.m4a"
+        },
+        {
+          "openmhz_id": "69e00c0fd7432e855c6ccc03",
+          "time_utc": "2026-04-15T22:06:56+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 12,
+          "transcript": "Engine 201, operate onto Bravo, local engine response, South Union Street and Wilkes Street. Engine 201.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c0fd7432e855c6ccc03.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776290816.m4a"
+        },
+        {
+          "openmhz_id": "69e00c22d7432e855c6d3d23",
+          "time_utc": "2026-04-15T22:07:22+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "464, signal 4. Go ahead.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c22d7432e855c6d3d23.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290842.m4a"
+        },
+        {
+          "openmhz_id": "69e00c37d7432e855c6db204",
+          "time_utc": "2026-04-15T22:07:30+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 19,
+          "transcript": "His subject last name Mitchell, first name Jamal showing a warrant out of Charles County for a simple assault. It's going to be a black male, date of birth 6-10-87, 6 foot 185, brown and black. It's also showing him on probation or supervised release out of...",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c37d7432e855c6db204.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290850.m4a"
+        },
+        {
+          "openmhz_id": "69e00c3cd7432e855c6dccc2",
+          "time_utc": "2026-04-15T22:07:52+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "IFE.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c3cd7432e855c6dccc2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290872.m4a"
+        },
+        {
+          "openmhz_id": "69e00c43d7432e855c6df771",
+          "time_utc": "2026-04-15T22:07:58+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "I'm directed to the next arrival.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c43d7432e855c6df771.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290878.m4a"
+        },
+        {
+          "openmhz_id": "69e00c4dd7432e855c6e3864",
+          "time_utc": "2026-04-15T22:08:07+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Standby is not stating, it just says limited extradition.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c4dd7432e855c6e3864.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290887.m4a"
+        },
+        {
+          "openmhz_id": "69e00c54d7432e855c6e5ff7",
+          "time_utc": "2026-04-15T22:08:16+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Under.",
+          "flagged": false,
+          "local_path": "public/audio/incident_40/69e00c54d7432e855c6e5ff7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776290896.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 44,
+      "start_time_utc": "2026-04-16T12:48:55+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e0da90d7432e855c1d397e",
+          "time_utc": "2026-04-16T12:47:56+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 15,
+          "transcript": "223, can you check on the number one hang up at number one Wales Alley? Number one Wales Alley. It's coming from a VoIP phone. There's a lot of static in the background and then it goes to a busy tone. We call back several times.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0da90d7432e855c1d397e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343676.m4a"
+        },
+        {
+          "openmhz_id": "69e0daafd7432e855c1db9c4",
+          "time_utc": "2026-04-16T12:48:22+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 21,
+          "transcript": "Rescue 209, medic 105, engine 209, operate onto Bravo, Fox, 209, 01, Unconscious, 2620, Mainline Blvd, Apartment 307, Cross St. McCarty Square, Rescue 209, medic 105, engine 209.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0daafd7432e855c1db9c4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776343702.m4a"
+        },
+        {
+          "openmhz_id": "69e0daccd7432e855c1e3617",
+          "time_utc": "2026-04-16T12:48:55+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 18,
+          "transcript": "Engine 204, Medic 411, EMS 201, operate onto Bravo, Fox, 201-30, Pedestrian Struck, Franklin Street, and South Alfred Street. Engine 204, Medic 411, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0daccd7432e855c1e3617.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776343735.m4a"
+        },
+        {
+          "openmhz_id": "69e0dac7d7432e855c1e1e52",
+          "time_utc": "2026-04-16T12:49:02+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "I'm going to have to redirect you on that call. I'm getting an emergency call. Stand by for one second.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dac7d7432e855c1e1e52.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343742.m4a"
+        },
+        {
+          "openmhz_id": "69e0dae7d7432e855c1ea551",
+          "time_utc": "2026-04-16T12:49:12+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 25,
+          "transcript": "223 and any unit that could back for Franklin and South Alfred, Franklin and South Alfred for a pedestrian struck. It's going to be a gentleman that was in the crosswalk that got hit by a vehicle. The vehicle is a grey Dodge Ram stuck to the pedestrian. No visible bleeding at this time. Medics are also responding to the location. Priority response is authorized.",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0dae7d7432e855c1ea551.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343752.m4a"
+        },
+        {
+          "openmhz_id": "69e0daf2d7432e855c1ed412",
+          "time_utc": "2026-04-16T12:49:43+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "222 to 215, you still hear me? Yeah, I'm going to need somebody. We're right in the middle of the intersection.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0daf2d7432e855c1ed412.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343783.m4a"
+        },
+        {
+          "openmhz_id": "69e0dafad7432e855c1ef832",
+          "time_utc": "2026-04-16T12:49:55+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Headquarters to any unit that can back 223 for the pedestrian stop.",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0dafad7432e855c1ef832.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343795.m4a"
+        },
+        {
+          "openmhz_id": "69e0db07d7432e855c1f39a6",
+          "time_utc": "2026-04-16T12:50:05+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "233 can you start to us his location? Motors is available if there's a need there.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0db07d7432e855c1f39a6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343805.m4a"
+        },
+        {
+          "openmhz_id": "69e0db0fd7432e855c1f60ea",
+          "time_utc": "2026-04-16T12:50:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "Take notice of any motor unit that can assist.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0db0fd7432e855c1f60ea.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343818.m4a"
+        },
+        {
+          "openmhz_id": "69e0db1dd7432e855c1fa8da",
+          "time_utc": "2026-04-16T12:50:20+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 13,
+          "transcript": "Medic 411, operate on 2 Bravo, Box 201-30, Pedestrian Struck, Franklin Street, and South Alfred Street. Medic 411.",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0db1dd7432e855c1fa8da.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776343820.m4a"
+        },
+        {
+          "openmhz_id": "69e0db1cd7432e855c1fa511",
+          "time_utc": "2026-04-16T12:50:29+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "220 I'm not seeing any motor unit marks and services of this time.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0db1cd7432e855c1fa511.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343829.m4a"
+        },
+        {
+          "openmhz_id": "69e0db25d7432e855c1fcc02",
+          "time_utc": "2026-04-16T12:50:38+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "233, can you start us his location, Franklin and Alfred?",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0db25d7432e855c1fcc02.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343838.m4a"
+        },
+        {
+          "openmhz_id": "69e0db83d7432e855c2194ef",
+          "time_utc": "2026-04-16T12:52:03+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 13,
+          "transcript": "MEDIC 208, operate onto Bravo, Fox, 201-30, Pedestrian Struck, Franklin Street, and South Alfred Street. MEDIC 208",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0db83d7432e855c2194ef.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776343923.m4a"
+        },
+        {
+          "openmhz_id": "69e0dbb5d7432e855c227f70",
+          "time_utc": "2026-04-16T12:52:57+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "233. Go ahead. Confirm response. Priority of this time, sir.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dbb5d7432e855c227f70.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776343977.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc4ad7432e855c252708",
+          "time_utc": "2026-04-16T12:55:20+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 15,
+          "transcript": "Out of range for Ranger 205. Planter was on fire behind 105 North Union. We removed the tree from the planter box. Make sure no extension into the building. Ranger 205, you're on read. Okay, 855 Mars.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dc4ad7432e855c252708.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776344120.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc56d7432e855c2569ea",
+          "time_utc": "2026-04-16T12:55:40+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "36. Go ahead, ma'am.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dc56d7432e855c2569ea.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344140.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc5dd7432e855c258c31",
+          "time_utc": "2026-04-16T12:55:50+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "The accident person in general report, please.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dc5dd7432e855c258c31.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344150.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc61d7432e855c259cf2",
+          "time_utc": "2026-04-16T12:55:57+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Okay.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dc61d7432e855c259cf2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344157.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc74d7432e855c25f678",
+          "time_utc": "2026-04-16T12:56:16+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Suit down.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dc74d7432e855c25f678.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344176.m4a"
+        },
+        {
+          "openmhz_id": "69e0dc81d7432e855c263d36",
+          "time_utc": "2026-04-16T12:56:24+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "C10, you can send me the pedestrian instructions. Okay, copy.",
+          "flagged": true,
+          "local_path": "public/audio/incident_44/69e0dc81d7432e855c263d36.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344184.m4a"
+        },
+        {
+          "openmhz_id": "69e0dca4d7432e855c26f59f",
+          "time_utc": "2026-04-16T12:57:03+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "236",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dca4d7432e855c26f59f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344223.m4a"
+        },
+        {
+          "openmhz_id": "69e0dcabd7432e855c27166b",
+          "time_utc": "2026-04-16T12:57:09+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "I'm sorry ma'am, go over to 2 for one second.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dcabd7432e855c27166b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344229.m4a"
+        },
+        {
+          "openmhz_id": "69e0dcb8d7432e855c275cf0",
+          "time_utc": "2026-04-16T12:57:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "You can submit a larceny. Okay, copy. Cover your report, please.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dcb8d7432e855c275cf0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344238.m4a"
+        },
+        {
+          "openmhz_id": "69e0dcbcd7432e855c276e39",
+          "time_utc": "2026-04-16T12:57:28+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Got it.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dcbcd7432e855c276e39.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344248.m4a"
+        },
+        {
+          "openmhz_id": "69e0dcf7d7432e855c28a4fa",
+          "time_utc": "2026-04-16T12:58:14+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "T23, you can slow down units. Medics are on scene. Copy. 210, 233, you can cut to response at this time. Medics are on the scene at Franklin and South Alfred.",
+          "flagged": false,
+          "local_path": "public/audio/incident_44/69e0dcf7d7432e855c28a4fa.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776344294.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 45,
+      "start_time_utc": "2026-04-16T20:46:04+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e14a19d7432e855c67506b",
+          "time_utc": "2026-04-16T20:44:04+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Headquarters to ACO2 for a call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_45/69e14a19d7432e855c67506b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776372244.m4a"
+        },
+        {
+          "openmhz_id": "69e14a6cd7432e855c69488e",
+          "time_utc": "2026-04-16T20:45:20+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "323 to the units on this call, the subject is GOA, you can go ahead.",
+          "flagged": false,
+          "local_path": "public/audio/incident_45/69e14a6cd7432e855c69488e.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776372320.m4a"
+        },
+        {
+          "openmhz_id": "69e14aa2d7432e855c6a8f6c",
+          "time_utc": "2026-04-16T20:46:04+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 208, Medic 109, EMS 202, operate onto Bravo, Fox, 206-81, Bicyclist's Truck, North Beauregard Street, and North Highview Lane. Engine 208, Medic 109, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_45/69e14aa2d7432e855c6a8f6c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776372364.m4a"
+        },
+        {
+          "openmhz_id": "69e14ad9d7432e855c6c06e6",
+          "time_utc": "2026-04-16T20:47:07+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "Crestry. Crestry. On scene. Ending mileage 20800.",
+          "flagged": false,
+          "local_path": "public/audio/incident_45/69e14ad9d7432e855c6c06e6.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776372427.m4a"
+        },
+        {
+          "openmhz_id": "69e14addd7432e855c6c2467",
+          "time_utc": "2026-04-16T20:47:21+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "1647",
+          "flagged": false,
+          "local_path": "public/audio/incident_45/69e14addd7432e855c6c2467.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776372441.m4a"
+        },
+        {
+          "openmhz_id": "69e14b62d7432e855c6fd201",
+          "time_utc": "2026-04-16T20:48:58+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 35,
+          "transcript": "332 and 325 for the motor vehicle accident with injuries involving a bike occurred about 10 minutes ago at the intersection north Beauregard street north highview lane at the intersection north Beauregard north highview caller advised his rear tire was hit by a vehicle complaining of leg pain but the other driver gave him a hundred dollars and left the striking vehicle is going to be a white Toyota Prius Virginia tag 124158 papa call is going to be at the bus stop",
+          "flagged": false,
+          "local_path": "public/audio/incident_45/69e14b62d7432e855c6fd201.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776372538.m4a",
+          "supplementary": true
+        }
+      ]
+    },
+    {
+      "incident_id": 46,
+      "start_time_utc": "2026-04-17T04:09:16+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e1b226d7432e855cc97bd0",
+          "time_utc": "2026-04-17T04:07:52+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "134-111 for disorderly 260 South Reynolds, 260 South Reynolds Street, apartment 603. The male caller states his partner has locked him outside of the residence.",
+          "flagged": false,
+          "local_path": "public/audio/incident_46/69e1b226d7432e855cc97bd0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776398872.m4a"
+        },
+        {
+          "openmhz_id": "69e1b282d7432e855ccb5c34",
+          "time_utc": "2026-04-17T04:09:16+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Rescue 209, Medic 205, EMS 201, operate onto Bravo, Fox, 209, 01, Bicyclist's Truck, Richmond Highway, and Potomac Avenue. Rescue 209, Medic 205, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_46/69e1b282d7432e855ccb5c34.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776398956.m4a"
+        },
+        {
+          "openmhz_id": "69e1b28ad7432e855ccb84cf",
+          "time_utc": "2026-04-17T04:09:27+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 15,
+          "transcript": "122-112 for a hit and run, Richmond and Potomac, Richmond Highway, Potomac Avenue, priority response triple zero nine. Call is still collecting further. A female was on a scooter struck by an unknown vehicle. Fire is en route.",
+          "flagged": true,
+          "local_path": "public/audio/incident_46/69e1b28ad7432e855ccb84cf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776398967.m4a"
+        },
+        {
+          "openmhz_id": "69e1b2a7d7432e855ccc339f",
+          "time_utc": "2026-04-17T04:10:05+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "325, you can add me to the motor vehicle hit and run call and check my current call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_46/69e1b2a7d7432e855ccc339f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776399005.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 52,
+      "start_time_utc": "2026-04-18T17:37:54+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e3c158d7432e855ce55106",
+          "time_utc": "2026-04-18T17:37:11+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 14,
+          "transcript": "Engine 209, operate onto Bravo, Fox, 201-20, Cygnus, 480, King Street, Cross Street, South Royal Street. Engine 209.",
+          "flagged": false,
+          "local_path": "public/audio/incident_52/69e3c158d7432e855ce55106.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776533831.m4a"
+        },
+        {
+          "openmhz_id": "69e3c187d7432e855ce633c1",
+          "time_utc": "2026-04-18T17:37:54+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 17,
+          "transcript": "Passengers need to respond to the injury moped Commonwealth Avenue and West Hewlett Avenue Commonwealth and West Hewlett Avenue for a blue vehicle that struck a subject on a scooter prior response authorized 1338.",
+          "flagged": true,
+          "local_path": "public/audio/incident_52/69e3c187d7432e855ce633c1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776533874.m4a"
+        },
+        {
+          "openmhz_id": "69e3c18ad7432e855ce64062",
+          "time_utc": "2026-04-18T17:37:55+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 20,
+          "transcript": "Rescue 209, Medic 209, EMS 201, operate on 2 Bravo, Fox, 202-33, Bicyclist's Druck, Commonwealth Avenue, and West Euler Avenue. Rescue 209, Medic 209, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_52/69e3c18ad7432e855ce64062.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776533875.m4a"
+        },
+        {
+          "openmhz_id": "69e3c1b9d7432e855ce71def",
+          "time_utc": "2026-04-18T17:38:52+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "231 Charlie to 235 Alpha, we're just slowly walking to the individual's address. Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_52/69e3c1b9d7432e855ce71def.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776533932.m4a"
+        },
+        {
+          "openmhz_id": "69e3c1ecd7432e855ce806b1",
+          "time_utc": "2026-04-18T17:39:28+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 25,
+          "transcript": "Italian 202, Italian 201, power 203, engine 203, operate on 1 charlie, box 109-01, structure fire 2121, 26th street south, cross street 25th street south, and south beach street. Italian 202, Italian 201, power 203, engine 203.",
+          "flagged": false,
+          "local_path": "public/audio/incident_52/69e3c1ecd7432e855ce806b1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776533968.m4a"
+        },
+        {
+          "openmhz_id": "69e3c1e5d7432e855ce7e653",
+          "time_utc": "2026-04-18T17:39:44+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "225 Alpha, I'm going to re-route you to a higher priority call.",
+          "flagged": false,
+          "local_path": "public/audio/incident_52/69e3c1e5d7432e855ce7e653.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776533984.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 54,
+      "start_time_utc": "2026-04-19T01:11:48+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e42be7d7432e855c43a4b7",
+          "time_utc": "2026-04-19T01:11:48+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "Headquarters any unit to break for the MVC injury pedestrian struck Readon Avenue North Beauregard Street, Readon Avenue North Beauregard Street. Prior response is authorized at 2112 hours.",
+          "flagged": true,
+          "local_path": "public/audio/incident_54/69e42be7d7432e855c43a4b7.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776561108.m4a"
+        },
+        {
+          "openmhz_id": "69e42bebd7432e855c43bc89",
+          "time_utc": "2026-04-19T01:11:50+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 206, Medic 208, EMS 202 operate onto Bravo, Box 206-81, Pedestrian Struck, Redding Avenue, and North Beauregard Street. Engine 206, Medic 208, EMS 202, operate onto Bravo, Box 206-81, Pedestrian Struck, Redding Avenue, and North Beauregard Street. Engine 206, Medic 208, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_54/69e42bebd7432e855c43bc89.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776561110.m4a"
+        },
+        {
+          "openmhz_id": "69e42bfed7432e855c441d0d",
+          "time_utc": "2026-04-19T01:12:23+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "You're doing some of your last. You're right.",
+          "flagged": false,
+          "local_path": "public/audio/incident_54/69e42bfed7432e855c441d0d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776561143.m4a"
+        },
+        {
+          "openmhz_id": "69e42c1ad7432e855c44ab01",
+          "time_utc": "2026-04-19T01:12:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "331, it's going to be a representing MVC pedestrian instructor reading at North Beauregard. The driver is still on scene. It's going to be a Jeep Wrangler. State of the subject's feet have been run over. The male is conscious and breathing.",
+          "flagged": true,
+          "local_path": "public/audio/incident_54/69e42c1ad7432e855c44ab01.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776561162.m4a"
+        },
+        {
+          "openmhz_id": "69e42c2ad7432e855c45052a",
+          "time_utc": "2026-04-19T01:13:06+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "335, you can break me and add me to that as well. You're right.",
+          "flagged": false,
+          "local_path": "public/audio/incident_54/69e42c2ad7432e855c45052a.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776561186.m4a"
+        },
+        {
+          "openmhz_id": "69e42c6fd7432e855c465c54",
+          "time_utc": "2026-04-19T01:14:20+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Dispatchers assign units to calls and give addresses.",
+          "flagged": false,
+          "local_path": "public/audio/incident_54/69e42c6fd7432e855c465c54.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776561260.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 59,
+      "start_time_utc": "2026-04-20T21:26:58+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e699d9d7432e855c4604cb",
+          "time_utc": "2026-04-20T21:25:21+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 15,
+          "transcript": "312 312 Q markman roger 4320 One female ECO Start a mile at 7837 Q notifies charge and earth please Copy 312 and following Copy",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e699d9d7432e855c4604cb.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720321.m4a"
+        },
+        {
+          "openmhz_id": "69e69a14d7432e855c4798a0",
+          "time_utc": "2026-04-20T21:26:31+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 10,
+          "transcript": "311 and any other units are back for the possible domestic 735 North St. Nathan Street, 735 North St. Nathan.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a14d7432e855c4798a0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720391.m4a"
+        },
+        {
+          "openmhz_id": "69e69a1cd7432e855c47d254",
+          "time_utc": "2026-04-20T21:26:47+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Great job, Mary Cerullo.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a1cd7432e855c47d254.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720407.m4a"
+        },
+        {
+          "openmhz_id": "69e69a20d7432e855c47eeef",
+          "time_utc": "2026-04-20T21:26:53+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a20d7432e855c47eeef.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720413.m4a"
+        },
+        {
+          "openmhz_id": "69e69a2ed7432e855c484d86",
+          "time_utc": "2026-04-20T21:26:58+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "311 and 310 disregard we got a P1 pedestrian struck at the intersection of Montgomery and North Santa Ana. Please proceed ahead that way.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69a2ed7432e855c484d86.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720418.m4a"
+        },
+        {
+          "openmhz_id": "69e69a3cd7432e855c48b0f9",
+          "time_utc": "2026-04-20T21:27:02+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Engine 201, Medic 205, EMS 201, operate onto Bravo, Fox, 20412, Pedestrian's Rock, Montgomery Street, and North St. Asaph Street. Engine 201, Medic 205, EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69a3cd7432e855c48b0f9.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776720422.m4a"
+        },
+        {
+          "openmhz_id": "69e69a33d7432e855c487061",
+          "time_utc": "2026-04-20T21:27:11+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Report.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a33d7432e855c487061.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720431.m4a"
+        },
+        {
+          "openmhz_id": "69e69a61d7432e855c49b78f",
+          "time_utc": "2026-04-20T21:27:20+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 31,
+          "transcript": "You guys get a wall it's going to be at the CVS on Beauregard. 310-311 for the pedestrian struck hit and run at the intersection of Montgomery street and North St. Nathans street. Montgomery North St. Nathans fire response is authorized 1727. Fire is in route. Caller advised the striking vehicles of black suburban. Pedestrian is down on the ground not breathing at this time.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69a61d7432e855c49b78f.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720440.m4a"
+        },
+        {
+          "openmhz_id": "69e69a60d7432e855c49ad9c",
+          "time_utc": "2026-04-20T21:27:55+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "EMS 201 from Alexandria.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a60d7432e855c49ad9c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776720475.m4a"
+        },
+        {
+          "openmhz_id": "69e69a8cd7432e855c4ad594",
+          "time_utc": "2026-04-20T21:28:19+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 18,
+          "transcript": "310, based on those calls, I'd like to start more units. We can shut that intersection down, please. Headquarters, any units that can break and respond for the hit-and-run pedestrian struck in Montgomery and North St. Aces to shut intersections down. 325, you can send me to St. Aces. Unit 10. Unit 10.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69a8cd7432e855c4ad594.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720499.m4a"
+        },
+        {
+          "openmhz_id": "69e69a91d7432e855c4af7ea",
+          "time_utc": "2026-04-20T21:28:43+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Are you going to have me? Copy.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69a91d7432e855c4af7ea.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720523.m4a"
+        },
+        {
+          "openmhz_id": "69e69aa8d7432e855c4b99a4",
+          "time_utc": "2026-04-20T21:28:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 8,
+          "transcript": "Hold days over for the time being so we can assess this call. Headquarters is direct. All late day units, hold over.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69aa8d7432e855c4b99a4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720539.m4a"
+        },
+        {
+          "openmhz_id": "69e69abcd7432e855c4c3730",
+          "time_utc": "2026-04-20T21:29:19+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 10,
+          "transcript": "Headquarters to the units responding for the hit-and-run pedestrian struck. They're now stating the striking vehicle is at the light at Washington and Montgomery and is parked.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69abcd7432e855c4c3730.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720559.m4a"
+        },
+        {
+          "openmhz_id": "69e69aced7432e855c4cb859",
+          "time_utc": "2026-04-20T21:29:27+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 20,
+          "transcript": "Engine 205, Medic 301, EMS 202, operate onto Bravo, Fox, 204-12, Pedestrian Struck, 818, North St. Asaph St., Cross St., Montgomery St. Engine 205, Medic 301, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_59/69e69aced7432e855c4cb859.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776720567.m4a"
+        },
+        {
+          "openmhz_id": "69e69ac5d7432e855c4c7c59",
+          "time_utc": "2026-04-20T21:29:32+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "The tag on that vehicle is going to be 853-2790 Virginia tag.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69ac5d7432e855c4c7c59.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720572.m4a"
+        },
+        {
+          "openmhz_id": "69e69accd7432e855c4cab29",
+          "time_utc": "2026-04-20T21:29:42+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Correction, it's going to be Hotel 532790.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69accd7432e855c4cab29.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720582.m4a"
+        },
+        {
+          "openmhz_id": "69e69afcd7432e855c4da5f3",
+          "time_utc": "2026-04-20T21:30:25+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "311 I have a medic unit on scene. I have the vehicle and I think according to witnesses I have the driver.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69afcd7432e855c4da5f3.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720625.m4a"
+        },
+        {
+          "openmhz_id": "69e69b00d7432e855c4dbb38",
+          "time_utc": "2026-04-20T21:30:35+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "Dispatchers assign units to calls and give addresses.",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69b00d7432e855c4dbb38.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720635.m4a"
+        },
+        {
+          "openmhz_id": "69e69b0cd7432e855c4e073d",
+          "time_utc": "2026-04-20T21:30:41+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "310 to 311, can you advise on the status of the victim? Are they still in injuries?",
+          "flagged": false,
+          "local_path": "public/audio/incident_59/69e69b0cd7432e855c4e073d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776720641.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 64,
+      "start_time_utc": "2026-04-22T20:38:19+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e93165d7432e855cb05896",
+          "time_utc": "2026-04-22T20:36:45+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 2,
+          "transcript": "Searching for a one-tracker.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93165d7432e855cb05896.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890205.m4a"
+        },
+        {
+          "openmhz_id": "69e93179d7432e855cb0c152",
+          "time_utc": "2026-04-22T20:36:51+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "13 Romeo 1. 600 block, Madison Street. It's gonna be, um, Maryland tag, 8 Foxtrot Mike, 2301, come back to White, tell you I don't have eyes. Correct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93179d7432e855cb0c152.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890211.m4a"
+        },
+        {
+          "openmhz_id": "69e931a9d7432e855cb1e1f4",
+          "time_utc": "2026-04-22T20:37:40+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 19,
+          "transcript": "Rescue 209, Medic 206, operate onto Bravo, Fox, 202-43, Traumatic Injury, 425, East Monroe Avenue, Cross Street, Leslie Avenue, Rescue 209, Medic 206.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e931a9d7432e855cb1e1f4.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776890260.m4a"
+        },
+        {
+          "openmhz_id": "69e931e8d7432e855cb364be",
+          "time_utc": "2026-04-22T20:38:19+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 40,
+          "transcript": "Engine 204, Medic 208, EMS 201, operate onto Bravo, Fox, 20410, pedestrian struck, 700, Northwest Street, Cross Street, Braddock Road, Engine 204, Medic 208, EMS 201. Engine 201, EMS 202, you can go on service, give me a duplicate call, EMS 202, and Engine 201, give me a duplicate call, you all go on service. 41, pedestrian struck, 500, East Braddock Road, Apartment, Cross Street, Northwest Street, Engine 201, Medic 301, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e931e8d7432e855cb364be.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776890299.m4a"
+        },
+        {
+          "openmhz_id": "69e931f5d7432e855cb3aa6c",
+          "time_utc": "2026-04-22T20:38:54+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 18,
+          "transcript": "324 and 332 for the MVC pedestrian struck, 500 East Braddock Road, 500 East Braddock Road, priority response is authorized at 1639 hours, striking vehicle is going to be a black SUV, unknown tag, attempting to get the direction of travel.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e931f5d7432e855cb3aa6c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890334.m4a"
+        },
+        {
+          "openmhz_id": "69e931fbd7432e855cb3cdcb",
+          "time_utc": "2026-04-22T20:39:16+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 3,
+          "transcript": "It's on the crosswalk to the Braddock Road metro station.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e931fbd7432e855cb3cdcb.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890356.m4a"
+        },
+        {
+          "openmhz_id": "69e93210d7432e855cb43e13",
+          "time_utc": "2026-04-22T20:39:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Alpha 2-0-5-5. Alpha 2-0-5-5. Myself and Alpha 2-3-4-8. 2-3-4-8 are about to pull up on that accident. On direct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93210d7432e855cb43e13.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890366.m4a"
+        },
+        {
+          "openmhz_id": "69e9321fd7432e855cb48f84",
+          "time_utc": "2026-04-22T20:39:54+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 2,
+          "transcript": "ATC, I want you in place of service.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e9321fd7432e855cb48f84.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776890394.m4a"
+        },
+        {
+          "openmhz_id": "69e9323cd7432e855cb53a97",
+          "time_utc": "2026-04-22T20:40:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "Inn is in reference to the MVC pedestrian struck. Striking vehicle was last seen turning onto West Street headed towards King Street.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e9323cd7432e855cb53a97.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890418.m4a"
+        },
+        {
+          "openmhz_id": "69e9324dd7432e855cb5a1eb",
+          "time_utc": "2026-04-22T20:40:31+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 10,
+          "transcript": "Alpha 2-0-5-5, we're out with the victim, you can slow everybody down, she's okay. I'm direct, 3-24-3-32, can slow response in 16-40 hours.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e9324dd7432e855cb5a1eb.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890431.m4a"
+        },
+        {
+          "openmhz_id": "69e9326bd7432e855cb647d0",
+          "time_utc": "2026-04-22T20:41:02+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "314, I'm on West Street right now, can we get a better description of the SUV? Do it.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e9326bd7432e855cb647d0.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890462.m4a"
+        },
+        {
+          "openmhz_id": "69e93281d7432e855cb6be70",
+          "time_utc": "2026-04-22T20:41:26+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "Crash due to the units on the pedestrian struck. Do y'all need me out there? Hold on one moment.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e93281d7432e855cb6be70.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890486.m4a"
+        },
+        {
+          "openmhz_id": "69e93293d7432e855cb71c12",
+          "time_utc": "2026-04-22T20:41:40+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 12,
+          "transcript": "Black SUV that turned right on left. There might be someone calling in with a better description. It sounds like another car tried to follow to get the tag.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93293d7432e855cb71c12.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890500.m4a"
+        },
+        {
+          "openmhz_id": "69e93297d7432e855cb731f1",
+          "time_utc": "2026-04-22T20:41:55+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 1,
+          "transcript": "8 quarters to the right.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93297d7432e855cb731f1.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890515.m4a"
+        },
+        {
+          "openmhz_id": "69e932cfd7432e855cb87210",
+          "time_utc": "2026-04-22T20:42:38+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 14,
+          "transcript": "MEDIC 301, operate onto Bravo, Fox, 20410, pedestrian struck, 700, Northwest Street, Cross Street, Braddock Road, MEDIC 301.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e932cfd7432e855cb87210.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776890558.m4a"
+        },
+        {
+          "openmhz_id": "69e9331dd7432e855cba3521",
+          "time_utc": "2026-04-22T20:43:55+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 14,
+          "transcript": "Units in reference to the pedestrian struck, it's going to be a black Chevy Tahoe C-71 with Virginia tag Tom Bravo X-ray 7512, made a right turn onto Fayette, now making a right turn onto Duke Street.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e9331dd7432e855cba3521.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890635.m4a"
+        },
+        {
+          "openmhz_id": "69e93329d7432e855cba7bdf",
+          "time_utc": "2026-04-22T20:44:16+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "Now may the U turn on Duke Street. We do have somebody fall on the vehicle.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93329d7432e855cba7bdf.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890656.m4a"
+        },
+        {
+          "openmhz_id": "69e93355d7432e855cbb7998",
+          "time_utc": "2026-04-22T20:44:50+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 11,
+          "transcript": "Of course, if you film at that intersection, can they keep providing updates? I'm direct. Current, most current updates is that they're at the light gate, Duke and South Henry.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93355d7432e855cbb7998.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890690.m4a"
+        },
+        {
+          "openmhz_id": "69e9336fd7432e855cbc02ad",
+          "time_utc": "2026-04-22T20:45:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 10,
+          "transcript": "462, myself and 322 have eyes on the vehicle. Duke and South Henry. Got eyes on the vehicle, Duke and South Henry, yourself and 322.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e9336fd7432e855cbc02ad.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890718.m4a"
+        },
+        {
+          "openmhz_id": "69e93395d7432e855cbccba2",
+          "time_utc": "2026-04-22T20:45:50+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 17,
+          "transcript": "Engine 201, EMS 202, operate onto Bravo, Fox, 20410, pedestrian struck, 700, Northwest Street, Cross Street, Braddock Road, Engine 201, EMS 202.",
+          "flagged": true,
+          "local_path": "public/audio/incident_64/69e93395d7432e855cbccba2.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776890750.m4a"
+        },
+        {
+          "openmhz_id": "69e93395d7432e855cbccb81",
+          "time_utc": "2026-04-22T20:45:59+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 6,
+          "transcript": "Crash 3, OK on traffic. I'm 10-4, I'm about to clear. Clear out.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e93395d7432e855cbccb81.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890759.m4a"
+        },
+        {
+          "openmhz_id": "69e9339ed7432e855cbcfa90",
+          "time_utc": "2026-04-22T20:46:11+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "Alpha 27-11, okay on traffic. 10-4. Be right.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e9339ed7432e855cbcfa90.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890771.m4a"
+        },
+        {
+          "openmhz_id": "69e933b5d7432e855cbd7857",
+          "time_utc": "2026-04-22T20:46:32+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 7,
+          "transcript": "462 and 322, caller stated the subject got out of the vehicle and is running. We're trying to get that updated location.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e933b5d7432e855cbd7857.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890792.m4a"
+        },
+        {
+          "openmhz_id": "69e933dad7432e855cbe2e1c",
+          "time_utc": "2026-04-22T20:46:51+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 23,
+          "transcript": "310, start another unit that way, I'll be in route as well. I'm direct. Tag, Tango Bravo X-ray 7512. Yes, Tom Bravo X-ray 7512. The caller is saying the subject is in custody on South Henry. Yeah, we got him. We're at Henry and Route 1. Henry and Route 1. Duke. Henry and Duke, one in custody at 1647.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e933dad7432e855cbe2e1c.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890811.m4a"
+        },
+        {
+          "openmhz_id": "69e933e1d7432e855cbe5c3d",
+          "time_utc": "2026-04-22T20:47:21+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "You can just fire my last. Thank you. I'm direct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e933e1d7432e855cbe5c3d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890841.m4a"
+        },
+        {
+          "openmhz_id": "69e933fad7432e855cbee05b",
+          "time_utc": "2026-04-22T20:47:39+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 9,
+          "transcript": "13 Romeo 1, NPR traffic. You can disconnect. I broke the head to assist the last call, but I'm disconnected. I'm direct.",
+          "flagged": false,
+          "local_path": "public/audio/incident_64/69e933fad7432e855cbee05b.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776890859.m4a"
+        }
+      ]
+    },
+    {
+      "incident_id": 66,
+      "start_time_utc": "2026-04-23T03:00:36+00:00",
+      "clips": [
+        {
+          "openmhz_id": "69e98b3cd7432e855cad342d",
+          "time_utc": "2026-04-23T02:59:53+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 15,
+          "transcript": "Engine 205, Medic 209, operate onto Bravo, Box 205-72, Unknown Medical, King Street, and Park Road. Engine 205, Medic 209.",
+          "flagged": false,
+          "local_path": "public/audio/incident_66/69e98b3cd7432e855cad342d.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776913193.m4a"
+        },
+        {
+          "openmhz_id": "69e98b64d7432e855cadf355",
+          "time_utc": "2026-04-23T03:00:36+00:00",
+          "talkgroup_num": 19,
+          "talkgroup_name": "AFD Dispatch",
+          "duration_s": 14,
+          "transcript": "EMS 201, Operate on 2 Bravo, Box 20572, Pedestrian Struck, King Street, and Park Road. EMS 201.",
+          "flagged": true,
+          "local_path": "public/audio/incident_66/69e98b64d7432e855cadf355.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/19/alex-19-1776913236.m4a"
+        },
+        {
+          "openmhz_id": "69e98b7fd7432e855cae7c62",
+          "time_utc": "2026-04-23T03:00:46+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 26,
+          "transcript": "Units 112, 312, and 315, it's going to be for the accident hit and run pedestrian struck at the intersection of King Street and Park Road, King Street and Park Road. Scan priority response is authorized. We do have medics responding, again there is a victim in the road.",
+          "flagged": true,
+          "local_path": "public/audio/incident_66/69e98b7fd7432e855cae7c62.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776913246.m4a"
+        },
+        {
+          "openmhz_id": "69e98b85d7432e855cae94ed",
+          "time_utc": "2026-04-23T03:01:18+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 4,
+          "transcript": "It is not stated the pedestrian is still breathing.",
+          "flagged": true,
+          "local_path": "public/audio/incident_66/69e98b85d7432e855cae94ed.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776913278.m4a"
+        },
+        {
+          "openmhz_id": "69e98b9ad7432e855caefcca",
+          "time_utc": "2026-04-23T03:01:25+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 15,
+          "transcript": "We're getting multiple calls at this time, said it was a green van with unknown state tags of Tango Romeo Papa 6370, white male driver, last seen eastbound on King Street.",
+          "flagged": false,
+          "local_path": "public/audio/incident_66/69e98b9ad7432e855caefcca.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776913285.m4a"
+        },
+        {
+          "openmhz_id": "69e98ba3d7432e855caf24cc",
+          "time_utc": "2026-04-23T03:01:47+00:00",
+          "talkgroup_num": 1,
+          "talkgroup_name": "APD Dispatch",
+          "duration_s": 5,
+          "transcript": "And units, be advised, they stayed at the van, they're still there, so this is not going to be a hit and run.",
+          "flagged": false,
+          "local_path": "public/audio/incident_66/69e98ba3d7432e855caf24cc.m4a",
+          "original_openmhz_url": "https://media2.openmhz.com/media/alex/1/alex-1-1776913307.m4a"
+        }
+      ]
+    }
+  ]
+}
