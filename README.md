@@ -1,11 +1,12 @@
-# Hidden Danger — Alexandria, April 2026
+# What Dispatch Heard in April — Alexandria, Virginia
 
 A personal research project by Elena Hutchison documenting every pedestrian,
 cyclist, and scooter strike dispatched over Alexandria, Virginia public-safety
 radio between April 1 and April 22, 2026.
 
-Published as an individual resident, not on behalf of the Del Ray Citizens
-Association, Better Braddock, or Northern Virginia Families for Safe Streets.
+This project is published in personal capacity. The findings and views here
+do not represent DRCA, BPAC, NVFSS, or any other organization the author is
+affiliated with.
 
 ## Data sources
 
