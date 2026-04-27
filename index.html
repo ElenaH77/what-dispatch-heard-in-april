@@ -412,6 +412,56 @@ Below is every verified incident I could find from April 1 through April 22,
   </details>
 </section>
 
+<section class="prose dc-research">
+  <h2>Alexandria is not the first city where this has been studied</h2>
+
+<p>The methodology behind this piece &mdash; pulling 911 dispatch audio,
+transcribing it, and comparing what gets called in to what appears in
+official crash data &mdash; was pioneered in Washington, DC. In 2021,
+researchers <a href="https://www.dcpolicycenter.org/publications/crash-report-disparities/"
+target="_blank" rel="noopener">Emilia Calma and Charlotte Jackson at the DC
+Policy Center</a> matched 911 calls to police crash reports for a six-week
+window and found that
+<a href="https://www.bloomberg.com/news/articles/2021-07-15/how-many-traffic-crashes-are-going-unreported"
+target="_blank" rel="noopener"><b>30 percent of crashes involving a pedestrian
+or cyclist did not appear in MPD crash data</b></a> at all. For car-only
+crashes, the gap was 10 percent.</p>
+
+<p>The DC findings were not evenly distributed. The highest rates of
+unreported crashes were east of the Anacostia River &mdash; in Wards 7 and
+8,
+<a href="https://www.axios.com/local/washington-dc/2021/10/06/dc-mpd-crash-pedestrian-safety"
+target="_blank" rel="noopener">lower-income and majority-Black wards</a>
+&mdash; where the official record was least complete in exactly the places
+that needed accurate data the most. The DC Policy Center concluded that
+DDOT was making infrastructure decisions on data that systematically
+undercounted pedestrian harm in the wards that already had the least
+political voice over those decisions.</p>
+
+<p>The work continues. In January 2025, the DC Highway Safety Office
+awarded a
+<a href="https://news.darden.virginia.edu/2025/01/21/darden-professor-awarded-470000-federal-grant-to-improve-dc-traffic-safety-through-data-analytics/"
+target="_blank" rel="noopener">$470,000 federal grant</a>
+to UVA Darden professor Chris Parker, Charlotte Jackson, and a research
+team to extend the methodology &mdash; adding predictive modeling, expanded
+data sources, and a dashboard that maps the streets students must cross to
+get to school. Their findings now suggest that <b>between 30 and 40 percent
+of crashes go unreported in DC's official data</b>, and the equity
+disparity remains the central concern.</p>
+
+<p>What this means for Alexandria: the data-infrastructure question this
+piece raises is being actively studied a few miles up the road, with
+federal funding, by researchers whose methodology I independently
+replicated when I built the tool behind this piece. Alexandria is
+conspicuously absent from that regional conversation. The incidents
+documented below are the first systematic application of this approach to
+an Alexandria-sized Virginia city. There is no reason to believe
+Alexandria's data is more complete than DC's &mdash; and good reason, given
+the same statutory reporting threshold and the same dispatch infrastructure,
+to expect the gap here is similar.</p>
+
+</section>
+
 <section class="timeline">
   <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The eighteen pedestrians hit <span style="font-size:0.7em;color:var(--muted);font-style:italic;font-weight:400"> &mdash; so far in April</span></h2>
   <p class="timeline-intro">In chronological order. Click any clip to play.</p>
@@ -1377,6 +1427,20 @@ from every Vision Zero dataset the city uses. Reaching them isn't a
 nice-to-have; it's the data integrity question at the center of an
 equity-focused safety program.</p>
 
+<p>The DC research found the largest data gaps in the wards with the
+lowest incomes and least political voice in transportation decisions.
+Alexandria has not yet studied whether its own data gaps follow similar
+patterns, but the structural reasons to expect they would are present
+here too: lower-income corridors, residents whose first language isn't
+English, residents with reasons to avoid law enforcement contact,
+residents who don't know reporting systems exist. A signage strategy that
+doesn't account for this will reach the same residents the dispatch data
+and the Charlottesville general order already reach. The point of
+expanding signage citywide &mdash; to construction sites, schools,
+recreation centers, parks, transit stops in every part of the city
+&mdash; is to reach the residents whose experience is currently absent
+from every Vision Zero dataset Alexandria uses.</p>
+
 <div class="closing-block">
   <p>A resident asking &ldquo;how many people were hit by drivers in
   Alexandria last month?&rdquo; should be able to get an answer within
@@ -1421,7 +1485,17 @@ dispatch access and individual privacy can coexist.</p>
   <details>
     <summary>How this was built and what it can and can't show</summary>
     <div class="body">
-      <p><b>The tool.</b> A Python program polls
+      <p><b>This methodology is not novel.</b> The approach &mdash; pulling
+dispatch audio, transcribing it, and comparing flagged incidents against
+official crash data &mdash; was developed by Emilia Calma and Charlotte
+Jackson at the DC Policy Center in 2021, and is being extended in 2025
+under federal grant funding by a research team at UVA Darden and the DC
+Pedestrian Advisory Council. I built the tool behind this piece
+independently before learning of the DC work; the convergence is itself a
+signal that the underlying approach is sound. What follows describes how
+this specific implementation was built and what it can and cannot show.</p>
+
+<p><b>The tool.</b> A Python program polls
 <a href="https://openmhz.com/system/alex" target="_blank" rel="noopener">OpenMHz</a>
 for new recordings from Alexandria Police and Fire dispatch talkgroups,
 transcribes each with OpenAI's Whisper, and flags recordings whose transcripts
