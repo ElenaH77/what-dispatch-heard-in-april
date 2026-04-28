@@ -183,12 +183,16 @@ section.access-note p.closer {
   section.access-note { padding: 22px 22px; margin: 40px 0 32px; }
 }
 
-/* Methodology: collapsible like the Background section above the timeline */
+/* DC research + Methodology: collapsible disclosure sections at the bottom
+   of the piece. Both styled identically — they're parallel "click for
+   more" footnotes the reader can reach into for depth. */
+section.dc-research details,
 section.methodology details {
   border-top: 0.5px solid var(--hairline);
   border-bottom: 0.5px solid var(--hairline);
   padding: 14px 0;
 }
+section.dc-research summary,
 section.methodology summary {
   cursor: pointer;
   font-family: "Playfair Display", Georgia, serif;
@@ -196,10 +200,15 @@ section.methodology summary {
   color: var(--accent-navy);
   list-style: none; padding: 4px 0;
 }
+section.dc-research summary::-webkit-details-marker,
 section.methodology summary::-webkit-details-marker { display: none; }
+section.dc-research summary::before,
 section.methodology summary::before { content: "+ "; display: inline-block; width: 22px; color: var(--muted); font-weight: 400; }
+section.dc-research details[open] summary::before,
 section.methodology details[open] summary::before { content: "− "; }
+section.dc-research details[open] summary,
 section.methodology details[open] summary { margin-bottom: 16px; }
+section.dc-research .body,
 section.methodology .body { padding-left: 22px; }
 
 /* Timeline + card */
@@ -1343,8 +1352,8 @@ in building a citywide risk-assessment framework &mdash; an objective tool
 that combines inputs like vehicle speeds, lane counts, traffic volumes, and
 corridor design with crash history, so a corridor's risk profile doesn't
 depend solely on whether a fatal crash has already happened there.
-Systematic dispatch data is well-suited as one of several inputs to a
-framework like that. This piece is offered as input to that effort.</p>
+Systematically-coded dispatch data is well-suited as one of several inputs
+to a framework like that. This piece is offered as input to that effort.</p>
 
 <p>T&amp;ES staff are already spread thin, but NVFSS is positioned to
 continue staffing this project going forward and I am at their service to
@@ -1361,9 +1370,9 @@ was hit, and incidents involving people who don't call the police.</p>
 <p>Northern Virginia Families for Safe Streets already operates a regional
 near-miss reporting form, modeled on what other cities &mdash; including
 Charlottesville &mdash; run through their own transportation departments.
-Through a formal partnership with DASH, QR codes (and soon SMS short codes
-for WhatsApp) linking to the NVFSS form are now posted at Alexandria bus
-stops. The data is real, the data is
+Today, through a formal partnership with DASH, QR codes linking to the
+NVFSS form (and soon SMS short codes supporting WhatsApp as well) are
+posted at Alexandria bus stops. The data is real, the data is
 published, and the partnership works.</p>
 
 <p>What's missing is reach. A single transit partnership, however
@@ -1414,10 +1423,36 @@ records.</p>
 
 </section>
 
-<section class="prose dc-research">
-  <h2>Alexandria is not the first city where this has been studied</h2>
+<section class="prose access-note">
+  <h2>A note on access</h2>
 
-<p>The methodology behind this piece &mdash; pulling 911 dispatch audio,
+<p>This analysis was only possible because Alexandria's primary dispatch
+radio is broadcast on an open frequency and archived publicly on OpenMHz.
+That isn't the case everywhere. A growing number of US localities have
+moved to encrypted dispatch in recent years. The reasons cited are usually
+officer-safety; the practical effect is that the public loses its only
+upstream view of what is actually happening on city streets. If this
+analysis prompts a similar conversation in Alexandria, that would be a
+shame &mdash; and counterproductive. The audio is the evidence. Removing
+it doesn't fix the gap between what dispatch hears and what the city
+officially counts; it just removes the public's ability to see it.</p>
+
+<p>I have worked hard to model good stewardship of this data. License plate
+numbers, witness contact information, and other identifying details that
+came over the air have been muted in the audio published here, and
+redacted in the transcripts. The originals were broadcast publicly. The
+choice to scrub them is mine, in the interest of demonstrating that public
+dispatch access and individual privacy can coexist.</p>
+
+<p class="closer">They can. This piece is intended as evidence that they do.</p>
+
+</section>
+
+<section class="prose dc-research">
+  <details>
+    <summary>Alexandria isn't the first city where this has been studied</summary>
+    <div class="body">
+      <p>The methodology behind this piece &mdash; pulling 911 dispatch audio,
 transcribing it, and comparing what gets called in to what appears in
 official crash data &mdash; was pioneered in Washington, DC. In 2021,
 researchers <a href="https://www.dcpolicycenter.org/publications/crash-report-disparities/"
@@ -1462,31 +1497,8 @@ Alexandria's data is more complete than DC's &mdash; and good reason, given
 the same statutory reporting threshold and the same dispatch infrastructure,
 to expect the gap here is similar.</p>
 
-</section>
-
-<section class="prose access-note">
-  <h2>A note on access</h2>
-
-<p>This analysis was only possible because Alexandria's primary dispatch
-radio is broadcast on an open frequency and archived publicly on OpenMHz.
-That isn't the case everywhere. A growing number of US localities have
-moved to encrypted dispatch in recent years. The reasons cited are usually
-officer-safety; the practical effect is that the public loses its only
-upstream view of what is actually happening on city streets. If this
-analysis prompts a similar conversation in Alexandria, that would be a
-shame &mdash; and counterproductive. The audio is the evidence. Removing
-it doesn't fix the gap between what dispatch hears and what the city
-officially counts; it just removes the public's ability to see it.</p>
-
-<p>I have worked hard to model good stewardship of this data. License plate
-numbers, witness contact information, and other identifying details that
-came over the air have been muted in the audio published here, and
-redacted in the transcripts. The originals were broadcast publicly. The
-choice to scrub them is mine, in the interest of demonstrating that public
-dispatch access and individual privacy can coexist.</p>
-
-<p class="closer">They can. This piece is intended as evidence that they do.</p>
-
+    </div>
+  </details>
 </section>
 
 <section class="prose methodology">
