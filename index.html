@@ -271,12 +271,42 @@ button.play-all:hover { background: var(--accent-navy); color: white; }
 .tg.APD { color: #1b4f8a; font-weight: 700; }
 .tg.AFD { color: var(--accent-terracotta); font-weight: 700; }
 .clip audio { height: 34px; width: 100%; max-width: 480px; }
-.links { margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; }
+.links { margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
 a.coverage {
   font-size: 13px; color: var(--accent-navy); border-bottom: 0;
   letter-spacing: 0.02em;
 }
 a.coverage:hover { text-decoration: underline; }
+
+/* Per-card share button */
+button.share-card {
+  font: inherit; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+  background: transparent; border: 0.5px solid var(--hairline);
+  color: var(--muted); padding: 5px 12px; border-radius: 2px;
+  cursor: pointer; font-weight: 600; margin-left: auto;
+}
+button.share-card:hover { border-color: var(--accent-navy); color: var(--accent-navy); }
+button.share-card.copied { background: var(--accent-navy); color: white; border-color: var(--accent-navy); }
+
+/* "What else dispatch heard" section */
+section.what-else {
+  margin: 64px 0 24px;
+  padding: 32px 0 0;
+  border-top: 0.5px solid var(--hairline);
+}
+section.what-else h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 26px; margin: 0 0 8px;
+}
+section.what-else .timeline-intro {
+  font-size: 15px; color: var(--muted); margin: 0 0 28px;
+}
+article.incident.what-else-card {
+  background: #f8f4ec;
+  border-color: var(--hairline);
+}
+article.incident.what-else-card h3.location { font-size: 19px; }
+article.incident.what-else-card .description { font-size: 15px; }
 
 footer {
   margin-top: 80px; padding: 40px 0 0;
@@ -315,11 +345,11 @@ footer a { color: var(--muted); }
 <body>
 
 <header class="hero">
-  <div class="eyebrow-top">April 1&ndash;22, 2026 &middot; Alexandria, Virginia &middot; A personal research project</div>
-  <h1>Eighteen people were hit by drivers in Alexandria in twenty-two days.</h1>
+  <div class="eyebrow-top">April 2026 &middot; Alexandria, Virginia &middot; A personal research project</div>
+  <h1>Nineteen people were hit by drivers in Alexandria in April.</h1>
   <p class="subhead">Six made the news. One pedestrian died. Every incident below is documented with the original dispatch audio.</p>
   <div class="stats">
-    <div><div class="stat-num">18</div><div class="stat-label">Total strikes</div></div>
+    <div><div class="stat-num">19</div><div class="stat-label">Total strikes</div></div>
     <div><div class="stat-num">6</div><div class="stat-label">Publicly reported</div></div>
     <div><div class="stat-num">7</div><div class="stat-label">Hit-and-runs</div></div>
     <div><div class="stat-num">1</div><div class="stat-label">Fatalities</div></div>
@@ -362,8 +392,8 @@ Metro last Wednesday night made me wonder how often this was happening.
 So I built a tool to download every OpenMHz dispatch call that was publicly available,
 transcribe them all, and search for anything that looked like it might be a
 pedestrian, scooter, or cyclist incident. I reviewed every flag myself.
-Below is every verified incident I could find from April 1 through April 22,
-2026. Six of them had made the news. Twelve had not.</p>
+Below is every verified incident I could find in April. Six of them had
+made the news. Thirteen had not.</p>
 
 </section>
 
@@ -422,7 +452,7 @@ Below is every verified incident I could find from April 1 through April 22,
 </section>
 
 <section class="timeline">
-  <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The eighteen pedestrians hit <span style="font-size:0.7em;color:var(--muted);font-style:italic;font-weight:400"> &mdash; so far in April</span></h2>
+  <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:28px;margin-top:0">The nineteen pedestrians hit</h2>
   <p class="timeline-intro">In chronological order. Click any clip to play.</p>
   
 <article class="incident" id="incident-9">
@@ -451,6 +481,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-9" data-share-title="Mount Vernon Ave &amp; E Luray Ave &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -494,6 +525,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     <a class="coverage" href="https://x.com/AlexandriaVAPD/status/2040529795893657660" target="_blank" rel="noopener">APD statement &rarr;</a>
+    <button type="button" class="share-card" data-anchor="incident-11" data-share-title="Mount Vernon Ave at E Braddock Rd (in the Braddock Project Area) &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -523,6 +555,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-14" data-share-title="S Royal St &amp; Green St (near Jones Point) &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -587,6 +620,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     <a class="coverage" href="https://www.alxnow.com/2026/04/07/developing-pedestrian-hit-in-west-end-alexandria/" target="_blank" rel="noopener">Read coverage &rarr;</a>
     <a class="coverage" href="https://x.com/AlexandriaVAPD/status/2041610113161544011?s=20" target="_blank" rel="noopener">APD statement &rarr;</a>
+    <button type="button" class="share-card" data-anchor="incident-15" data-share-title="Sanger Ave &amp; N Van Dorn St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -630,6 +664,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-25" data-share-title="Seminary Rd &amp; N Mark Center Ave &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -652,6 +687,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-26" data-share-title="4368 King St (Liberty Gas Station) &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -709,6 +745,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     <a class="coverage" href="https://www.alxnow.com/2026/04/13/pedestrian-struck-during-fire-response-in-landmark-area/" target="_blank" rel="noopener">Read coverage &rarr;</a>
     
+    <button type="button" class="share-card" data-anchor="incident-31" data-share-title="Valley Forge Dr &amp; S Pickett St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -738,6 +775,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-32" data-share-title="Stovall St near Mill Rd &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -760,6 +798,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-36" data-share-title="906 Wolfe St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -796,6 +835,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     <a class="coverage" href="https://www.alxnow.com/2026/04/16/child-struck-by-vehicle-near-william-ramsay-elementary-school/" target="_blank" rel="noopener">Read coverage &rarr;</a>
     
+    <button type="button" class="share-card" data-anchor="incident-40" data-share-title="5750 Sanger Ave (near William Ramsay Elementary) &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -860,6 +900,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-44" data-share-title="Franklin St &amp; S Alfred St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -896,6 +937,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-45" data-share-title="N Beauregard St &amp; Highview Ln &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -932,6 +974,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-46" data-share-title="Potomac Ave &amp; Richmond Hwy &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -961,6 +1004,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-52" data-share-title="Commonwealth Ave &amp; Uhler Ave &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -997,6 +1041,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-54" data-share-title="Reading Ave &amp; N Beauregard St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -1075,6 +1120,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-59" data-share-title="N St Asaph St &amp; Montgomery St &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -1231,6 +1277,7 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-64" data-share-title="500 E Braddock Rd at Braddock Metro (&quot;Braddock Metro Crosswalk&quot;) &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
@@ -1267,25 +1314,114 @@ Below is every verified incident I could find from April 1 through April 22,
   <div class="links">
     
     
+    <button type="button" class="share-card" data-anchor="incident-66" data-share-title="King St &amp; Park Rd &mdash; What Dispatch Heard in April">Direct link</button>
   </div>
 </article>
 
-  
-<aside class="addendum">
-  <div class="eyebrow">Tuesday, April&nbsp;7  &middot;  outside Alexandria city limits</div>
-  <h3>Plus one more: a Virginia State Trooper struck on I-495</h3>
-  <p>A State Trooper was struck by a driver while pursuing a suspect. The injured officer was taken to a nearby hospital for treatment.</p>
-  <audio controls preload="none" src="audio/incident_21/69d5ad45302a9885edffa3c9.m4a"></audio>
-  <p style="margin-top:10px">
-    <a href="https://wtop.com/virginia/2026/04/trooper-struck-by-vehicle-while-following-virginia-man-running-across-capital-beltway/" target="_blank" rel="noopener">WTOP coverage &rarr;</a>
-  </p>
-  <p style="font-size:13px;margin-top:10px">Not counted in the 18 above because
-  the incident occurred on I-495 (Capital Beltway), outside Alexandria city
-  limits. Included here because Alexandria units responded alongside Virginia
-  State Police, and because a pedestrian strike is a pedestrian strike.</p>
-</aside>
+<article class="incident" id="incident-100">
+  <div class="eyebrow">Thursday,  April&nbsp;23 &middot; 5:10&nbsp;PM &middot; <span class="neighborhood">Old Town North</span></div>
+  <h3 class="location">900 block of Princess St</h3>
+  <div class="pills"><span class="pill type pedestrian">Pedestrian</span></div>
+  <p class="description">A woman was hit by a driver in the 900 block of Princess Street — Thursday evening rush hour, just three days after the fatal pedestrian strike. An officer happened to be at the scene and called it in. The pedestrian had minor injuries and refused medical transport, which means there will be no state-database record of this strike at all. This incident seems structurally similar in terms of time and location to the strike that caused a death in Old Town, at least from what we can hear, but the police report filed should be reviewed to confirm details.</p>
+  <blockquote class="excerpt">MVC, pedestrian struck, 900 Princess Street. Caller is with Alpha 2196 and they did refuse medics.</blockquote>
+  <button type="button" class="play-all" aria-label="Play all clips in this card in sequence">▶ Play all clips in order</button>
+  <div class="clips">
+    
+<div class="clip" data-clip-idx="0">
+  <div class="clip-meta">
+    <span class="clip-time">5:10:25&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 26s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_100/69ea8ae1d7432e855c576619.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="1">
+  <div class="clip-meta">
+    <span class="clip-time">5:13:49&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 13s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_100/69ea8b9cd7432e855c5bb4e7.m4a"></audio>
+</div>
+
+<div class="clip" data-clip-idx="2">
+  <div class="clip-meta">
+    <span class="clip-time">5:16:43&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+  </div>
+  <audio controls preload="none" src="audio/incident_100/69ea8c4cd7432e855c5fbe74.m4a"></audio>
+</div>
+  </div>
+  <div class="links">
+    
+    
+    <button type="button" class="share-card" data-anchor="incident-100" data-share-title="900 block of Princess St &mdash; What Dispatch Heard in April">Direct link</button>
+  </div>
+</article>
 
 </section>
+
+
+<section class="what-else">
+  <h2>What else dispatch heard in April</h2>
+  <p class="timeline-intro">Three additional events that came over the same dispatch
+  channels in April but didn't fit the count above. None are pedestrian strikes
+  in Alexandria. Each is part of the larger picture of how this corridor and
+  this radio frequency document the city &mdash; and what falls outside any
+  official record.</p>
+  
+<article class="incident what-else-card" id="incident-21">
+  <div class="eyebrow">Tuesday,  April&nbsp;7 &middot; 9:17&nbsp;PM</div>
+  <h3 class="location">I-495 at Telegraph Rd</h3>
+  <p class="description">A State Trooper was struck by a driver while pursuing a suspect. The injured officer was taken to a nearby hospital for treatment.</p>
+  <blockquote class="excerpt">Copy. Headquarters to 314, do you read me? They were in pursuit of the vehicle, there was a bailout, and the trooper was chasing after the suspect. A civilian vehicle struck the trooper.</blockquote>
+  
+  <div class="clip">
+    <div class="clip-meta">
+      <span class="clip-time">9:19:02&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 46s</span>
+    </div>
+    <audio controls preload="none" src="audio/incident_21/69d5ad45302a9885edffa3c9.m4a"></audio>
+  </div>
+  <div class="links">
+    <a class="coverage" href="https://wtop.com/virginia/2026/04/trooper-struck-by-vehicle-while-following-virginia-man-running-across-capital-beltway/" target="_blank" rel="noopener">WTOP coverage &rarr;</a>
+    <button type="button" class="share-card" data-anchor="incident-21" data-share-title="I-495 at Telegraph Rd &mdash; What Dispatch Heard in April">Direct link</button>
+  </div>
+</article>
+
+<article class="incident what-else-card" id="incident-101">
+  <div class="eyebrow">Saturday,  April&nbsp;25 &middot; 1:09&nbsp;PM &middot; <span class="neighborhood">Better Braddock project area</span></div>
+  <h3 class="location">W. Braddock Rd &amp; Russell Rd</h3>
+  <p class="description">Two-vehicle crash on West Braddock Road. APD logged it as property damage; one vehicle (a white Toyota 4Runner) was identified, the other was not. Flagging because this crash occurred in the Braddock Road Project corridor and any further reporting will not be available publicly for months, if there was enough property damage to be reportable there at all.</p>
+  <blockquote class="excerpt">MVC, property damage, West Braddock Road and Russell Road. Checking for a white Toyota 4Runner. Trying to gather the other vehicle description.</blockquote>
+  
+  <div class="clip">
+    <div class="clip-meta">
+      <span class="clip-time">1:09:12&nbsp;PM &middot; <span class="tg APD">APD</span> &middot; 14s</span>
+    </div>
+    <audio controls preload="none" src="audio/incident_101/69ecf549d7432e855c898173.m4a"></audio>
+  </div>
+  <div class="links">
+    
+    <button type="button" class="share-card" data-anchor="incident-101" data-share-title="W. Braddock Rd &amp; Russell Rd &mdash; What Dispatch Heard in April">Direct link</button>
+  </div>
+</article>
+
+<article class="incident what-else-card" id="incident-102">
+  <div class="eyebrow">Monday,  April&nbsp;27 &middot; 8:53&nbsp;AM &middot; <span class="neighborhood">Old Town</span></div>
+  <h3 class="location">Cameron St &amp; Northwest St</h3>
+  <p class="description">A driver and a cyclist confronting each other in the street, each accusing the other of trying to hit them — and both calling the police on each other. No one was struck. This is the close-call category that the third layer of the ask above is meant to capture: it doesn&#x27;t generate a crash report, doesn&#x27;t enter any database, and would be invisible to anyone looking only at official statistics. But it is an everyday reality on Alexandria streets, and the only reason we know about this one is that both parties escalated it.</p>
+  <blockquote class="excerpt">Disorderly. Cameron Street at Northwest Street. A dispute between a driver and a bicyclist. Both are accusing each other of trying to hit each other.</blockquote>
+  
+  <div class="clip">
+    <div class="clip-meta">
+      <span class="clip-time">8:53:49&nbsp;AM &middot; <span class="tg APD">APD</span> &middot; 33s</span>
+    </div>
+    <audio controls preload="none" src="audio/incident_102/69ef5c87d7432e855cdde236.m4a"></audio>
+  </div>
+  <div class="links">
+    
+    <button type="button" class="share-card" data-anchor="incident-102" data-share-title="Cameron St &amp; Northwest St &mdash; What Dispatch Heard in April">Direct link</button>
+  </div>
+</article>
+
+</section>
+
 
 <section class="prose ask">
   <h2>What Alexandria should do</h2>
@@ -1522,18 +1658,32 @@ transcribes each with OpenAI's Whisper, and flags recordings whose transcripts
 match a keyword list for pedestrian, cyclist, scooter, or crash activity on
 Mount Vernon Avenue and Braddock Road. A human &mdash; me, for this review
 &mdash; reviewed every flagged recording and marked it real, false, or
-unclear. All 28,321 recordings from April 1&ndash;23 went through the same
-pipeline; 129 flagged; 73 incident clusters produced; this piece features 18
-Alexandria-city pedestrian/cyclist/scooter strikes, plus one additional
-incident involving Alexandria units handling a Virginia State Trooper strike
-on I-495 at Telegraph Road on April&nbsp;7 (covered separately
-<a href="https://wtop.com/virginia/2026/04/trooper-struck-by-vehicle-while-following-virginia-man-running-across-capital-beltway/"
-   target="_blank" rel="noopener">by WTOP</a>).</p>
+unclear. The pipeline ran initially across April 1&ndash;23, and again in
+incremental batches through April 30; this piece features 19 Alexandria-city
+pedestrian/cyclist/scooter strikes from the April 1&ndash;23 window. The
+&ldquo;What else dispatch heard&rdquo; section above the methodology
+captures three additional events that surfaced in those incremental pulls
+and are part of the picture without being pedestrian strikes per se.</p>
 
-<p><b>Scope.</b> April 1 through April 22, 2026. Alexandria, Virginia.
-Pedestrian, cyclist, and scooter strikes that generated a dispatch call on
-primary police (APD 1) or fire/EMS (AFD 2 Alpha) talkgroups. Does not
-include incidents on secondary tactical or incident-command channels.</p>
+<p><b>Scope.</b> April 1 through April 23, 2026, for the main count.
+Alexandria, Virginia. Pedestrian, cyclist, and scooter strikes that generated
+a dispatch call on primary police (APD 1) or fire/EMS (AFD 2 Alpha)
+talkgroups. Does not include incidents on secondary tactical or
+incident-command channels.</p>
+
+<p><b>Listening to the calls in their original context.</b> Every audio
+clip embedded above is a self-hosted copy of an OpenMHz recording, so it
+will keep playing here permanently. OpenMHz itself only keeps each call
+online for <b>30 days</b>, so any call older than that has already aged out
+of the public archive on their site &mdash; the copies embedded here are the
+only public audio that survives. To browse the live archive yourself for
+anything within the past 30 days, visit
+<a href="https://openmhz.com/system/alex" target="_blank" rel="noopener">openmhz.com/system/alex</a>.
+There is no account required. Use the talkgroup filter at the top to choose
+&ldquo;APD&nbsp;1 Disp&rdquo; (police dispatch) or &ldquo;AFD&nbsp;2 Alpha
+Disp&rdquo; (fire/EMS dispatch); use the date and time controls to jump to a
+specific day and time of day. Calls are listed newest-first within the
+window you choose.</p>
 
 <p><b>Exclusions.</b> Incidents that turned out on investigation not to be
 strikes are excluded. One call during the review period came in reporting a
@@ -1583,7 +1733,7 @@ three docs you'd start with.</p>
 <p class="capacity">This is a personal project. The findings and views here are mine alone, not those of DRCA, BPAC, NVFSS, or any other organization I'm part of.</p>
 
   <p class="contact"><a href="mailto:ecaudle@gmail.com">ecaudle@gmail.com</a></p>
-  <p class="last-updated">Last updated April&nbsp;28,&nbsp;2026.</p>
+  <p class="last-updated">Last updated May&nbsp;1,&nbsp;2026.</p>
 </footer>
 
 </main>
@@ -1661,6 +1811,41 @@ const io = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1 });
 document.querySelectorAll('article.incident').forEach(el => io.observe(el));
+
+// Per-card share button. On mobile (where navigator.share exists) opens the
+// native share sheet so the recipient gets a clean preview. On desktop (or
+// where share is unavailable) copies the deep URL to the clipboard with
+// inline confirmation.
+document.querySelectorAll('button.share-card').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    const anchor = btn.dataset.anchor;
+    const title = btn.dataset.shareTitle || document.title;
+    const base = window.location.origin + window.location.pathname;
+    const url = base + '#' + anchor;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: title, url: url });
+        return;
+      } catch (e) {
+        // user dismissed — fall through to clipboard so they still have a way
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      const orig = btn.textContent;
+      btn.textContent = 'Link copied';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = orig;
+        btn.classList.remove('copied');
+      }, 1800);
+    } catch (e) {
+      // last resort: prompt the user with the URL so they can copy manually
+      window.prompt('Copy this link', url);
+    }
+  });
+});
 </script>
 <script data-goatcounter="https://aprildispatch.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
